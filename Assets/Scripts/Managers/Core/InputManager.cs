@@ -11,9 +11,13 @@ public class InputManager
         TODO : 키 입력을 저장하는 변수 선언
 
     */
+    public float horizontal;
+    public float vertical;
 
     public void OnUpdate()
     {
+        horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
 
     }
 
