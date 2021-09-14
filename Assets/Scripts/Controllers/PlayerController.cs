@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         GroundedCheck();
-        SetAnim();
         Jump();
+        SetAnim();
     }
     private void FixedUpdate()
     {
@@ -65,7 +65,8 @@ public class PlayerController : MonoBehaviour
 
     void GroundedCheck()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, LayerMask.GetMask("Ground"));
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(transform.position, Vector2.down * 0.6f, Color.blue, 0.5f);
         if (hit.transform != null)
         {
             isGrounded = true;
