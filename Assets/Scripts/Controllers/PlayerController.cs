@@ -67,9 +67,13 @@ public class PlayerController : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, LayerMask.GetMask("Ground"));
         if (hit.transform != null)
+        {
             isGrounded = true;
+        }
         else
+        {
             isGrounded = false;
+        }
     }
 
     void SetAnim()
