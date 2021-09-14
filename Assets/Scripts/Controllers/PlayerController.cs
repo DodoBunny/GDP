@@ -31,7 +31,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetAnim(); 
+        GroundedCheck();
+        SetAnim();
         Jump();
     }
     private void FixedUpdate()
@@ -48,18 +49,29 @@ public class PlayerController : MonoBehaviour
         else if (_rigid.velocity.x < -maxSpeed)
             _rigid.velocity = new Vector2(-maxSpeed, _rigid.velocity.y);
 
-    } 
+    }
 
     void Jump()
     {
+        if (!isGrounded)
+            return;
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             _anim.SetTrigger("Jump");
         }
-
     }
-    
+
+    void GroundedCheck()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, LayerMask.GetMask("Ground"));
+        if (hit.transform != null)
+            isGrounded = true;
+        else
+            isGrounded = false;
+    }
+
     void SetAnim()
     {
         if (Managers.Input.horizontal < 0)
@@ -77,5 +89,4 @@ public class PlayerController : MonoBehaviour
 
         _anim.SetBool("IsGrounded", isGrounded);
     }
-
 }
