@@ -34,8 +34,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         GroundedCheck();
-        SetAnim();
         Jump();
+        SetAnim();
     }
     private void FixedUpdate()
     {
@@ -68,11 +68,16 @@ public class PlayerController : MonoBehaviour
 
     void GroundedCheck()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f, LayerMask.GetMask("Ground"));
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(transform.position, Vector2.down * 0.6f, Color.blue, 0.5f);
         if (hit.transform != null)
+        {
             isGrounded = true;
+        }
         else
+        {
             isGrounded = false;
+        }
     }
 
     void SetAnim()
@@ -105,4 +110,22 @@ public class PlayerController : MonoBehaviour
 
         _anim.SetBool("IsGrounded", isGrounded);
     }
+
+    /*
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // 바닥에 닿았음을 감지하는 처리
+        // 어떤 콜라이더와 닿았으며, 충돌 표면이 위쪽을 보고 있으면
+        if (collision.contacts[0].normal.y > 0.7f && collision.transform.tag.Equals("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // 바닥에서 벗어났음을 감지하는 처리
+        isGrounded = false;
+    }
+    */
 }
