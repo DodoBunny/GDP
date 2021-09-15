@@ -94,22 +94,4 @@ public class PlayerController : MonoBehaviour
 
         _anim.SetBool("IsGrounded", isGrounded);
     }
-
-    /*
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        // 바닥에 닿았음을 감지하는 처리
-        // 어떤 콜라이더와 닿았으며, 충돌 표면이 위쪽을 보고 있으면
-        if (collision.contacts[0].normal.y > 0.7f && collision.transform.tag.Equals("Ground"))
-        {
-            isGrounded = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // 바닥에서 벗어났음을 감지하는 처리
-        isGrounded = false;
-    }
-    */
 }
