@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D _rigid;
     Animator _anim;
     SpriteRenderer _sprite;
+    AudioSource _audio; // 점프 효과음
 
     [SerializeField]
     float maxSpeed;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         _rigid = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
+        _audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -59,6 +61,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            _audio.Play(); // 점프 효과음 재생
             _anim.SetTrigger("Jump");
         }
     }
@@ -84,8 +87,21 @@ public class PlayerController : MonoBehaviour
             _anim.SetBool("IsMove", true);
             _sprite.flipX = false;
         }
+        else if (_rigid.velocity.y <= 0 && _rigid.velocity.y >= -3 && isGrounded == false) // 떨어지고 있을 때 체크
+        {
+            _anim.SetBool("startFalling", true);
+            _anim.SetBool("isFalling", true);
+        }
+        else if (_rigid.velocity.y <= -3 && isGrounded == false) // 떨어지고 있을 때 체크
+        {
+            _anim.SetBool("startFalling", false);
+            _anim.SetBool("isFalling", true);
+        }
         else
+        {
             _anim.SetBool("IsMove", false);
+            _anim.SetBool("isFalling", false);
+        }
 
         _anim.SetBool("IsGrounded", isGrounded);
     }
