@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
 
     void GroundedCheck()
     {
+        /*
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, LayerMask.GetMask("Ground"));
         Debug.DrawRay(transform.position, Vector2.down * 0.6f, Color.blue, 0.5f);
         if (hit.transform != null)
@@ -78,6 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = false;
         }
+        */
     }
 
     void SetAnim()
@@ -92,7 +94,12 @@ public class PlayerController : MonoBehaviour
             _anim.SetBool("IsMove", true);
             _sprite.flipX = false;
         }
-        else if (_rigid.velocity.y <= 0 && _rigid.velocity.y >= -3 && isGrounded == false) // 떨어지고 있을 때 체크
+        else
+        {
+            _anim.SetBool("IsMove", false);
+        }
+
+        if (_rigid.velocity.y <= -1 && _rigid.velocity.y >= -3 && isGrounded == false) // 떨어지고 있을 때 체크
         {
             _anim.SetBool("startFalling", true);
             _anim.SetBool("isFalling", true);
@@ -104,19 +111,17 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            _anim.SetBool("IsMove", false);
             _anim.SetBool("isFalling", false);
         }
 
         _anim.SetBool("IsGrounded", isGrounded);
     }
 
-    /*
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         // 바닥에 닿았음을 감지하는 처리
         // 어떤 콜라이더와 닿았으며, 충돌 표면이 위쪽을 보고 있으면
-        if (collision.contacts[0].normal.y > 0.7f && collision.transform.tag.Equals("Ground"))
+        if (collision.contacts[0].normal.y > 0.5f && collision.transform.tag.Equals("Ground"))
         {
             isGrounded = true;
         }
@@ -127,5 +132,4 @@ public class PlayerController : MonoBehaviour
         // 바닥에서 벗어났음을 감지하는 처리
         isGrounded = false;
     }
-    */
 }
