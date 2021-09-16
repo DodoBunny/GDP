@@ -84,17 +84,17 @@ public class PlayerController : MonoBehaviour
 
         if (_rigid.velocity.y <= -1 && _rigid.velocity.y >= -3 && isGrounded == false) // 떨어지고 있을 때 체크
         {
-            _anim.SetBool("startFalling", true);
-            _anim.SetBool("isFalling", true);
+           // _anim.SetBool("startFalling", true);
+           // _anim.SetBool("isFalling", true);
         }
         else if (_rigid.velocity.y <= -3 && isGrounded == false) // 떨어지고 있을 때 체크
         {
-            _anim.SetBool("startFalling", false);
-            _anim.SetBool("isFalling", true);
+            //_anim.SetBool("startFalling", false);
+           // _anim.SetBool("isFalling", true);
         }
         else
         {
-            _anim.SetBool("isFalling", false);
+            //_anim.SetBool("isFalling", false);
         }
 
         _anim.SetBool("IsGrounded", isGrounded);
