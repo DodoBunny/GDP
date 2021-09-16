@@ -26317,7 +26317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8242770113376985344, guid: 75834346a5eb4e34380973d748f980a6, type: 3}
       propertyPath: m_LinearDrag
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8242770113376985344, guid: 75834346a5eb4e34380973d748f980a6, type: 3}
       propertyPath: m_AngularDrag
@@ -26386,6 +26386,10 @@ PrefabInstance:
     - target: {fileID: 8242770113376985351, guid: 75834346a5eb4e34380973d748f980a6, type: 3}
       propertyPath: jumpPower
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8242770113376985351, guid: 75834346a5eb4e34380973d748f980a6, type: 3}
+      propertyPath: maxSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75834346a5eb4e34380973d748f980a6, type: 3}
