@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
 
             for (int i = 0; i < collision.contactCount; i++)
             {
-            if (collision.contacts[i].normal.y > 0.9f)
+            if (collision.contacts[i].normal.y > 0.7f)
                 if (isGrounded == false)
                     _anim.Play("Idle");
                 isGrounded = true;

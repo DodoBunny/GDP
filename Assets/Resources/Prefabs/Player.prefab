@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8242770113376985350}
   - component: {fileID: 8242770113376985351}
-  - component: {fileID: 8242770113376985345}
   - component: {fileID: 8242770113376985344}
   - component: {fileID: 8242770113376985347}
   - component: {fileID: 8242770113376985346}
@@ -132,26 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3384beca10462684c92e60e248acd905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 6
   moveSpeed: 20
   jumpPower: 100
+  maxSpeed: 6
   isGrounded: 0
---- !u!70 &8242770113376985345
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8242770113376985349}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: ed8f1333c246e4746b94394de298b461, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
-  m_Direction: 0
 --- !u!50 &8242770113376985344
 Rigidbody2D:
   serializedVersion: 4
