@@ -10,15 +10,12 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer _sprite;
     AudioSource _audio; // 점프 효과음
 
-    [SerializeField]
-    float maxSpeed;
-    [SerializeField]
-    float moveSpeed = 10f;
-    [SerializeField]
-    float jumpPower = 20f;
+    public float moveSpeed = 10f;
+    public float jumpPower = 20f;
+    public float maxSpeed = 20f;
 
     [SerializeField]
-    bool isGrounded = false;
+    private bool isGrounded = false;
 
 
     private void Awake()
@@ -82,22 +79,11 @@ public class PlayerController : MonoBehaviour
             _anim.SetBool("IsMove", false);
         }
 
-        if (_rigid.velocity.y <= -1 && _rigid.velocity.y >= -3 && isGrounded == false) // 떨어지고 있을 때 체크
-        {
-           // _anim.SetBool("startFalling", true);
-           // _anim.SetBool("isFalling", true);
-        }
-        else if (_rigid.velocity.y <= -3 && isGrounded == false) // 떨어지고 있을 때 체크
-        {
-            //_anim.SetBool("startFalling", false);
-           // _anim.SetBool("isFalling", true);
-        }
-        else
-        {
-            //_anim.SetBool("isFalling", false);
-        }
 
         _anim.SetBool("IsGrounded", isGrounded);
+
+        if (_rigid.velocity.y <= -3f && isGrounded == false)
+            _anim.Play("Falling");
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -107,7 +93,7 @@ public class PlayerController : MonoBehaviour
 
             for (int i = 0; i < collision.contactCount; i++)
             {
-            if (collision.contacts[i].normal.y > 0.5f)
+            if (collision.contacts[i].normal.y > 0.9f)
                 if (isGrounded == false)
                     _anim.Play("Idle");
                 isGrounded = true;
