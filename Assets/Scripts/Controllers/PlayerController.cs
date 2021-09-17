@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         if (_rigid.velocity.x > maxSpeed)
             _rigid.velocity = new Vector2(maxSpeed, _rigid.velocity.y);
         else if (_rigid.velocity.x < maxSpeed * (-1))
-            _rigid.velocity = new Vector2(-maxSpeed * (-1), _rigid.velocity.y);
+            _rigid.velocity = new Vector2(maxSpeed * (-1), _rigid.velocity.y);
 
     }
 
@@ -84,13 +84,13 @@ public class PlayerController : MonoBehaviour
 
         if (_rigid.velocity.y <= -1 && _rigid.velocity.y >= -3 && isGrounded == false) // 떨어지고 있을 때 체크
         {
-           // _anim.SetBool("startFalling", true);
-           // _anim.SetBool("isFalling", true);
+            // _anim.SetBool("startFalling", true);
+            // _anim.SetBool("isFalling", true);
         }
         else if (_rigid.velocity.y <= -3 && isGrounded == false) // 떨어지고 있을 때 체크
         {
             //_anim.SetBool("startFalling", false);
-           // _anim.SetBool("isFalling", true);
+            // _anim.SetBool("isFalling", true);
         }
         else
         {
@@ -105,13 +105,13 @@ public class PlayerController : MonoBehaviour
         // 바닥에 닿았음을 감지하는 처리
         // 어떤 콜라이더와 닿았으며, 충돌 표면이 위쪽을 보고 있으면
 
-            for (int i = 0; i < collision.contactCount; i++)
-            {
+        for (int i = 0; i < collision.contactCount; i++)
+        {
             if (collision.contacts[i].normal.y > 0.5f)
                 if (isGrounded == false)
                     _anim.Play("Idle");
-                isGrounded = true;
-            }
+            isGrounded = true;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
