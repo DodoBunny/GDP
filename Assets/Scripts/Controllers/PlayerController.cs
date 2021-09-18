@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,6 +18,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private bool isGrounded = false;
 
+    public float distance;
+    public float angle;
+
+    LayerMask groundMask;
+    public Transform chkPos;
+    public float checkRadius;
+
+
 
     private void Awake()
     {
@@ -25,6 +34,7 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
         _audio = GetComponent<AudioSource>();
+        groundMask = LayerMask.GetMask("Ground");
     }
 
     // Update is called once per frame
@@ -32,6 +42,7 @@ public class PlayerController : MonoBehaviour
     {
         Jump();
         SetAnim();
+        GroundChk();
     }
     private void FixedUpdate()
     {
@@ -46,6 +57,15 @@ public class PlayerController : MonoBehaviour
             _rigid.velocity = new Vector2(maxSpeed, _rigid.velocity.y);
         else if (_rigid.velocity.x < maxSpeed * (-1))
             _rigid.velocity = new Vector2(maxSpeed * (-1), _rigid.velocity.y);
+
+        //키 입력 없을 때 이동 제한
+        //if (Managers.Input.horizontal == 0 && isGrounded)
+            //_rigid.velocity = new Vector2(0, _rigid.velocity.y);
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, distance, groundMask);
+        angle = Vector2.Angle(hit.normal, Vector2.up);
+        Debug.DrawLine(hit.point, hit.point + hit.normal, Color.blue);
+
 
     }
 
@@ -85,7 +105,12 @@ public class PlayerController : MonoBehaviour
         if (_rigid.velocity.y <= -3f && isGrounded == false)
             _anim.Play("Falling");
     }
-
+    void GroundChk()
+    {
+        isGrounded = Physics2D.OverlapCircle(chkPos.position, checkRadius, groundMask);
+    }
+   
+    /*
     private void OnCollisionStay2D(Collision2D collision)
     {
         // 바닥에 닿았음을 감지하는 처리
@@ -105,4 +130,6 @@ public class PlayerController : MonoBehaviour
         // 바닥에서 벗어났음을 감지하는 처리
         isGrounded = false;
     }
+    */
+
 }
