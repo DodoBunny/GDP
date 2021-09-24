@@ -116,6 +116,144 @@ TextureImporter:
   - first:
       213: -8121976559458586005
     second: Sprite_NPC0002_19
+  - first:
+      213: 5842094571922476300
+    second: Sprite_Npc0002_0
+  - first:
+      213: 4493141601554406533
+    second: Sprite_Npc0002_1
+  - first:
+      213: 483660004534352592
+    second: Sprite_Npc0002_2
+  - first:
+      213: -3557638328716229766
+    second: Sprite_Npc0002_3
+  - first:
+      213: 3197026736309645827
+    second: Sprite_Npc0002_4
+  - first:
+      213: -2715862384674776995
+    second: Sprite_Npc0002_5
+  - first:
+      213: -882725355629595634
+    second: Sprite_Npc0002_6
+  - first:
+      213: -541295681579291040
+    second: Sprite_Npc0002_7
+  - first:
+      213: -286565845089051917
+    second: Sprite_Npc0002_8
+  - first:
+      213: 503785471925826113
+    second: Sprite_Npc0002_9
+  - first:
+      213: 616705465502140009
+    second: Sprite_Npc0002_10
+  - first:
+      213: -2425415746025608906
+    second: Sprite_Npc0002_11
+  - first:
+      213: -5266313497385973520
+    second: Sprite_Npc0002_12
+  - first:
+      213: 1532262490881882994
+    second: Sprite_Npc0002_13
+  - first:
+      213: -3077702229841023981
+    second: Sprite_Npc0002_14
+  - first:
+      213: -6159744011334762611
+    second: Sprite_Npc0002_15
+  - first:
+      213: 5113270357113926998
+    second: Sprite_Npc0002_16
+  - first:
+      213: 4174505816036393627
+    second: Sprite_Npc0002_17
+  - first:
+      213: -3374946863921143100
+    second: Sprite_Npc0002_18
+  - first:
+      213: -3883860307226901164
+    second: Sprite_Npc0002_19
+  - first:
+      213: -4870671492475674532
+    second: Sprite_Npc0002_20
+  - first:
+      213: 965108785667865915
+    second: Sprite_Npc0002_21
+  - first:
+      213: -4164135055743613528
+    second: Sprite_Npc0002_0
+  - first:
+      213: -6737645162483021545
+    second: Sprite_Npc0002_1
+  - first:
+      213: 4686789155499735749
+    second: Sprite_Npc0002_2
+  - first:
+      213: 3619438444292724018
+    second: Sprite_Npc0002_3
+  - first:
+      213: -3690472739336199333
+    second: Sprite_Npc0002_4
+  - first:
+      213: -736878811421266096
+    second: Sprite_Npc0002_5
+  - first:
+      213: -1237386925871493675
+    second: Sprite_Npc0002_6
+  - first:
+      213: 6330315433028074597
+    second: Sprite_Npc0002_7
+  - first:
+      213: -4668114231592573227
+    second: Sprite_Npc0002_8
+  - first:
+      213: -1784924492923188275
+    second: Sprite_Npc0002_9
+  - first:
+      213: -3948609649081432132
+    second: Sprite_Npc0002_10
+  - first:
+      213: 7753162976203866248
+    second: Sprite_Npc0002_11
+  - first:
+      213: 5248670088132068912
+    second: Sprite_Npc0002_12
+  - first:
+      213: 7906177748219584520
+    second: Sprite_Npc0002_13
+  - first:
+      213: 1275273073690502396
+    second: Sprite_Npc0002_14
+  - first:
+      213: 9091525094348969311
+    second: Sprite_Npc0002_15
+  - first:
+      213: 120947948069156975
+    second: Sprite_Npc0002_16
+  - first:
+      213: 593728728242173610
+    second: Sprite_Npc0002_17
+  - first:
+      213: 2181879325230791799
+    second: Sprite_Npc0002_18
+  - first:
+      213: 8861021962326752977
+    second: Sprite_Npc0002_19
+  - first:
+      213: -3887098064888570838
+    second: Sprite_Npc0002_20
+  - first:
+      213: -327419142779679845
+    second: Sprite_Npc0002_21
+  - first:
+      213: -264293339570873815
+    second: Sprite_Npc0002_22
+  - first:
+      213: 7993164481043269939
+    second: Sprite_Npc0002_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -239,7 +377,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_NPC0002_0
+      name: Sprite_Npc0002_0
       rect:
         serializedVersion: 2
         x: 0
@@ -253,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 358b4ae44468db5c0800000000000000
-      internalID: -4198051649704118189
+      spriteID: 8a586a5ba350636c0800000000000000
+      internalID: -4164135055743613528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_1
+      name: Sprite_Npc0002_1
       rect:
         serializedVersion: 2
         x: 48
@@ -274,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93c98563cee6fa4a0800000000000000
-      internalID: -6579918569761891271
+      spriteID: 719029b1c631f72a0800000000000000
+      internalID: -6737645162483021545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_2
+      name: Sprite_Npc0002_2
       rect:
         serializedVersion: 2
         x: 96
@@ -295,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a98aff1b70abe00800000000000000
-      internalID: 1061169123279018569
+      spriteID: 5caf6beb7e1da0140800000000000000
+      internalID: 4686789155499735749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_3
+      name: Sprite_Npc0002_3
       rect:
         serializedVersion: 2
         x: 144
@@ -316,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63998682dfadbdbe0800000000000000
-      internalID: -1451325674057328330
+      spriteID: 235d576a614da3230800000000000000
+      internalID: 3619438444292724018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_4
+      name: Sprite_Npc0002_4
       rect:
         serializedVersion: 2
         x: 192
@@ -337,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a178f7117157f7b70800000000000000
-      internalID: 8898960130645657370
+      spriteID: b536a96b89ec8ccc0800000000000000
+      internalID: -3690472739336199333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_5
+      name: Sprite_Npc0002_5
       rect:
         serializedVersion: 2
         x: 240
@@ -358,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a4a9de600af22f90800000000000000
-      internalID: -6979741592704146268
+      spriteID: 05f29ba00a416c5f0800000000000000
+      internalID: -736878811421266096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_6
+      name: Sprite_Npc0002_6
       rect:
         serializedVersion: 2
         x: 288
@@ -379,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d38826f82a1ba690800000000000000
-      internalID: -7589943983771974704
+      spriteID: 5dd87b9952be3dee0800000000000000
+      internalID: -1237386925871493675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_7
+      name: Sprite_Npc0002_7
       rect:
         serializedVersion: 2
         x: 0
@@ -400,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe2edbae88533320800000000000000
-      internalID: 2536468384931786489
+      spriteID: 56cbfcdc85cc9d750800000000000000
+      internalID: 6330315433028074597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_8
+      name: Sprite_Npc0002_8
       rect:
         serializedVersion: 2
         x: 48
@@ -421,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fba8d93e1fd67a040800000000000000
-      internalID: 4658813225211366079
+      spriteID: 5d6aafec6d6873fb0800000000000000
+      internalID: -4668114231592573227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_9
+      name: Sprite_Npc0002_9
       rect:
         serializedVersion: 2
         x: 96
@@ -442,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c211017a65d2850800000000000000
-      internalID: 6353829924818725948
+      spriteID: dcb4b6071acaa37e0800000000000000
+      internalID: -1784924492923188275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_10
+      name: Sprite_Npc0002_10
       rect:
         serializedVersion: 2
         x: 144
@@ -463,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b952b14a774093b90800000000000000
-      internalID: -7261768012257352293
+      spriteID: cb742ddd178b339c0800000000000000
+      internalID: -3948609649081432132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_11
+      name: Sprite_Npc0002_11
       rect:
         serializedVersion: 2
         x: 192
@@ -484,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04ed0895360854350800000000000000
-      internalID: 6000343242732789312
+      spriteID: 880875a16a4c89b60800000000000000
+      internalID: 7753162976203866248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_12
+      name: Sprite_Npc0002_12
       rect:
         serializedVersion: 2
         x: 240
@@ -505,14 +643,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a90fcee50b90e50800000000000000
-      internalID: 6776141036104227407
+      spriteID: 0368452f2a507d840800000000000000
+      internalID: 5248670088132068912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_13
+      name: Sprite_Npc0002_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800e9b5f5c268bd60800000000000000
+      internalID: 7906177748219584520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_14
       rect:
         serializedVersion: 2
         x: 48
@@ -526,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac438258533252d30800000000000000
-      internalID: 4405966523226141898
+      spriteID: cf461f49a1ea2b110800000000000000
+      internalID: 1275273073690502396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_14
+      name: Sprite_Npc0002_15
       rect:
         serializedVersion: 2
         x: 96
@@ -547,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 662a92e9da80adba0800000000000000
-      internalID: -6063524406525058458
+      spriteID: f55583387e59b2e70800000000000000
+      internalID: 9091525094348969311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_15
+      name: Sprite_Npc0002_16
       rect:
         serializedVersion: 2
         x: 144
@@ -568,14 +727,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a74204eaaa76558c0800000000000000
-      internalID: -4011185910338018182
+      spriteID: f6879f89481bda100800000000000000
+      internalID: 120947948069156975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_16
+      name: Sprite_Npc0002_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 356
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b1d3f1295d3800800000000000000
+      internalID: 593728728242173610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_18
       rect:
         serializedVersion: 2
         x: 0
@@ -589,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cec9338dfa898c60800000000000000
-      internalID: 7820935049338539719
+      spriteID: 77c762bafa7974e10800000000000000
+      internalID: 2181879325230791799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_17
+      name: Sprite_Npc0002_19
       rect:
         serializedVersion: 2
         x: 48
@@ -610,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bdd617e708ec3390800000000000000
-      internalID: -7837134130892055119
+      spriteID: 1debb6be68ca8fa70800000000000000
+      internalID: 8861021962326752977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_18
+      name: Sprite_Npc0002_20
       rect:
         serializedVersion: 2
         x: 96
@@ -631,18 +811,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8967b433d8aa70ab0800000000000000
-      internalID: -5041873734390286696
+      spriteID: a2c553b97e04e0ac0800000000000000
+      internalID: -3887098064888570838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_NPC0002_19
+      name: Sprite_Npc0002_21
       rect:
         serializedVersion: 2
-        x: 144
-        y: 308
+        x: 0
+        y: 260
         width: 48
         height: 48
       alignment: 0
@@ -652,8 +832,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b62fb6be951f84f80800000000000000
-      internalID: -8121976559458586005
+      spriteID: b9b44fd3606c47bf0800000000000000
+      internalID: -327419142779679845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a5062ab9a055cf0800000000000000
+      internalID: -264293339570873815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3398ad3febc6dee60800000000000000
+      internalID: 7993164481043269939
       vertices: []
       indices: 
       edges: []
