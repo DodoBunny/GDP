@@ -254,6 +254,24 @@ TextureImporter:
   - first:
       213: 7993164481043269939
     second: Sprite_Npc0002_23
+  - first:
+      213: -1834316473596511952
+    second: Sprite_Npc0002_22
+  - first:
+      213: 5869982145762776103
+    second: Sprite_Npc0002_23
+  - first:
+      213: 9051414857723387081
+    second: Sprite_Npc0002_24
+  - first:
+      213: -2500162450812039202
+    second: Sprite_Npc0002_25
+  - first:
+      213: 2197296364314351941
+    second: Sprite_Npc0002_26
+  - first:
+      213: 1368571698299393140
+    second: Sprite_Npc0002_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -821,8 +839,8 @@ TextureImporter:
       name: Sprite_Npc0002_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 260
+        x: 144
+        y: 308
         width: 48
         height: 48
       alignment: 0
@@ -842,8 +860,8 @@ TextureImporter:
       name: Sprite_Npc0002_22
       rect:
         serializedVersion: 2
-        x: 48
-        y: 260
+        x: 192
+        y: 308
         width: 48
         height: 48
       alignment: 0
@@ -853,8 +871,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a5062ab9a055cf0800000000000000
-      internalID: -264293339570873815
+      spriteID: 039f1a9c2e23b86e0800000000000000
+      internalID: -1834316473596511952
       vertices: []
       indices: 
       edges: []
@@ -863,8 +881,8 @@ TextureImporter:
       name: Sprite_Npc0002_23
       rect:
         serializedVersion: 2
-        x: 96
-        y: 260
+        x: 240
+        y: 308
         width: 48
         height: 48
       alignment: 0
@@ -874,8 +892,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3398ad3febc6dee60800000000000000
-      internalID: 7993164481043269939
+      spriteID: 724531c39ad567150800000000000000
+      internalID: 5869982145762776103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc9b4d4bd51d9d70800000000000000
+      internalID: 9051414857723387081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf04965f73ad4dd0800000000000000
+      internalID: -2500162450812039202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549d63dc66d5e7e10800000000000000
+      internalID: 2197296364314351941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Npc0002_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474d9c665b42ef210800000000000000
+      internalID: 1368571698299393140
       vertices: []
       indices: 
       edges: []
