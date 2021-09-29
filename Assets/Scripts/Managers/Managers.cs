@@ -15,18 +15,23 @@ public class Managers : MonoBehaviour
 
 	#region Core
     InputManager _input = new InputManager();
+    SoundManager _sound = new SoundManager();
 
     public static InputManager Input { get { return Instance._input; } }
-	#endregion
+    public static SoundManager Sound { get { return Instance._sound; } }
+    #endregion
 
-	void Start()
+    void Start()
     {
         Init();
+        _game.Init();
+        _sound.Init();
 	}
 
     void Update()
     {
         _input.OnUpdate();
+        _game.OnUpdate();
     }
 
     static void Init()
