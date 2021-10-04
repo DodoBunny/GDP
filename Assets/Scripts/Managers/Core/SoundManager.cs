@@ -25,7 +25,6 @@ public class SoundManager
 
         BGM.clip = BGM_clip;
         BGM.Play();
-        Util.DontDestroyOnLoad(BGM);
     }
     
     public void Play(Define.Sounds soundName)
