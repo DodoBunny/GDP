@@ -5,20 +5,21 @@ using UnityEngine.UI;
 
 public class GameManager
 {
-    GameObject player;
-    Text scoreText;
+    public GameObject player;
+    public Text scoreText;
 
+    
     public int score = 0;
 
     public void Init()
     {
-        player = GameObject.Find("Player");
-        scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
+
     }
 
     public void OnUpdate()
     {
-        scoreText.text = "Score : " + score;
+        if(scoreText != null)
+            scoreText.text = "Score : " + score;
     }
 
 }
