@@ -26,6 +26,7 @@ public class Managers : MonoBehaviour
         Init();
         _game.Init();
         _sound.Init();
+        DontDestroyOnLoad(GameObject.Find("@SoundManager"));
 	}
 
     void Update()
@@ -47,7 +48,7 @@ public class Managers : MonoBehaviour
 
             DontDestroyOnLoad(go);
             s_instance = go.GetComponent<Managers>();
-        }		
+        }
 	}
 
     public static void Clear()

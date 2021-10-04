@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Util
+public class Util : MonoBehaviour
 {
     /*
         TODO : 여러곳에서 반복적으로 사용될 수 있는 메소드 집합 
@@ -16,5 +16,11 @@ public class Util
             component = go.AddComponent<T>();
         return component;
 	}
+
+    public static void DontDestroyOnLoad(GameObject go)
+    {
+        if(go != null)
+            DontDestroyOnLoad(go);
+    }
 
 }
