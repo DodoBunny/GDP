@@ -26,7 +26,6 @@ public class Managers : MonoBehaviour
         Init();
         _game.Init();
         _sound.Init();
-        DontDestroyOnLoad(GameObject.Find("@SoundManager"));
 	}
 
     void Update()
