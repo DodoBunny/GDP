@@ -6,7 +6,7 @@ public class MovingPlatform : MonoBehaviour
 {
     public Transform startPos; // 플랫폼의 시작위치
     public Transform endPos; // 도착위치
-    public Transform desPos; // 목적지
+    Transform desPos; // 목적지
 
     public float speed; // 플랫폼이 움직이는 속도
 
@@ -41,8 +41,8 @@ public class MovingPlatform : MonoBehaviour
 
     void FixedUpdate()
     {
-       transform.position = Vector2.MoveTowards(transform.position, desPos.position, speed * Time.deltaTime);
-       // 플랫폼의 position은 현재 위치로부터 목적지의 위치로 speed의 값의 속도로 이동한다.
+        transform.position = Vector2.MoveTowards(transform.position, desPos.position, speed * Time.deltaTime);
+        // 플랫폼의 position은 현재 위치로부터 목적지의 위치로 speed의 값의 속도로 이동한다.
 
         if (Vector2.Distance(transform.position, desPos.position) <= 0.05f)
         // 플랫폼과 목적지 사이 거리가 0.05 이하이면..

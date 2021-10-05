@@ -7,8 +7,9 @@ public class FollowerController : MonoBehaviour
     Animator _anim;
     SpriteRenderer _sprite;
 
-    public float Movedist = 2f;
-    public float MoveTime = 2f;
+    public float maxdist = 10f;
+    public float movedist = 2f;
+    public float moveTime = 2f;
 
     // Start is called before the first frame update
     void Awake()
@@ -20,11 +21,16 @@ public class FollowerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if ((Managers.Game.player.transform.position - transform.position).sqrMagnitude > maxdist)
+        {
+            transform.position = Managers.Game.player.transform.position;
+        }
 
-        if ((Managers.Game.player.transform.position - transform.position).sqrMagnitude > Movedist)
+
+        if ((Managers.Game.player.transform.position - transform.position).sqrMagnitude > movedist)
         {
             _anim.SetBool("IsMove", true);
-            float moveX = Mathf.Lerp(transform.position.x, Managers.Game.player.transform.position.x, MoveTime * Time.deltaTime);
+            float moveX = Mathf.Lerp(transform.position.x, Managers.Game.player.transform.position.x, moveTime * Time.deltaTime);
             transform.position = new Vector3(moveX, transform.position.y, transform.position.z);
         }
         else
