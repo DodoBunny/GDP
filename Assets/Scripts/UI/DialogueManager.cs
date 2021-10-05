@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public GameObject DialoguePanel; // 판넬 오브젝트를 가져옴
-    public Text Dialogue; // 텍스트에 오브젝트
+    public Text Dialogue; // 텍스트 오브젝트
     public GameObject scanObject; // 스캔할 오브젝트
     public bool isAction; // Action 함수의 부울
 
@@ -19,8 +19,8 @@ public class DialogueManager : MonoBehaviour
         else // 판넬이 꺼져있으면
         {
             isAction = true; // 판넬에 true값 준다
-            scanObject = scanObj;
             Dialogue.text = "안녕! 가천대학교에 온걸 환영해"; // 텍스트를 넣어준다
+            //scanObject = scanObj;
 
         }
 

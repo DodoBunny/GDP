@@ -28,8 +28,8 @@ public class PlayerController : MonoBehaviour
     // Dialogue
     Vector3 dirVec; // 단위 벡터 (방향을 알기위함)
     float h;
-    GameObject scanObject; // 스캔할 게임 오브젝트
-    public DialogueManager D_manager; // 대화메니저를 가져온다 (Action함수를 가져오기 위함)
+    GameObject scanObject; // 스캔할 오브젝트
+    public DialogueManager D_manager; // 다이얼로그메니저를 가져온다 (Action함수를 가져오기 위함)
 
     private void Awake()
     {
@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
         SetAnim();
         GroundChk();
     }
+
     private void FixedUpdate()
     {
         Move();
@@ -94,13 +95,13 @@ public class PlayerController : MonoBehaviour
         h = Input.GetAxisRaw("Horizontal");
 
         // Direction
-        if (h == 1)
+        if (h == 1) // 오른쪽 방향키를 누르면 1이 입력됨
         {
-            dirVec = Vector3.right;
+            dirVec = Vector3.right; // dirVec에 오른쪽 방향을 넣어준다.
         }
-        else if (h == -1)
+        else if (h == -1) // 왼쪽 방향키를 누르면 -1이 입력됨
         {
-            dirVec = Vector3.left;
+            dirVec = Vector3.left; // dirVec에 왼쪽 방향을 넣어준다.
         }
 
     }
@@ -123,11 +124,14 @@ public class PlayerController : MonoBehaviour
 
     void Scan() // v키(Interaction)을 누르면 함수 실행
     {
-        if (Input.GetButtonDown("Interaction") && scanObject != null)
+        if (Input.GetButtonDown("Interaction") && scanObject != null) // v키를 누르고 scanObject가 있다면
         {
-            D_manager.Action(scanObject);
+            D_manager.Action(scanObject); // Action함수 실행
         }
-
+        else if(Input.GetButtonDown("Interaction") && scanObject == null) // v키를 누르고 scanObject가 없다면
+        {
+            D_manager.DialoguePanel.SetActive(false); // 판넬을 없앤다
+        }
     }
 
     void SetAnim()
