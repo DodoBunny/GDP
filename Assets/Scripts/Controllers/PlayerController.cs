@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer _sprite;
     AudioSource _audio; // 점프 효과음
 
+    public bool canMove = true;
+
     public float moveSpeed = 10f;
     public float jumpPower = 20f;
     public float maxSpeed = 20f;
@@ -59,27 +61,20 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        _rigid.AddForce(Vector2.right * Managers.Input.horizontal * moveSpeed, ForceMode2D.Impulse);
+        if (canMove)
+        {
+            _rigid.AddForce(Vector2.right * Managers.Input.horizontal * moveSpeed, ForceMode2D.Impulse);
 
-        if (_rigid.velocity.x > maxSpeed)
-            _rigid.velocity = new Vector2(maxSpeed, _rigid.velocity.y);
-        else if (_rigid.velocity.x < maxSpeed * (-1))
-            _rigid.velocity = new Vector2(maxSpeed * (-1), _rigid.velocity.y);
-
-        //키 입력 없을 때 이동 제한
-        //if (Managers.Input.horizontal == 0 && isGrounded)
-            //_rigid.velocity = new Vector2(0, _rigid.velocity.y);
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, distance, groundMask);
-        angle = Vector2.Angle(hit.normal, Vector2.up);
-        Debug.DrawLine(hit.point, hit.point + hit.normal, Color.blue);
-
-
+            if (_rigid.velocity.x > maxSpeed)
+                _rigid.velocity = new Vector2(maxSpeed, _rigid.velocity.y);
+            else if (_rigid.velocity.x < maxSpeed * (-1))
+                _rigid.velocity = new Vector2(maxSpeed * (-1), _rigid.velocity.y);
+        }
     }
 
     void Jump()
     {
-        if (!isGrounded)
+        if (!isGrounded || !canMove)
             return;
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -162,27 +157,4 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(chkPos.position, checkRadius, groundMask);
     }
-   
-    /*
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        // 바닥에 닿았음을 감지하는 처리
-        // 어떤 콜라이더와 닿았으며, 충돌 표면이 위쪽을 보고 있으면
-
-            for (int i = 0; i < collision.contactCount; i++)
-            {
-            if (collision.contacts[i].normal.y > 0.7f)
-                if (isGrounded == false)
-                    _anim.Play("Idle");
-                isGrounded = true;
-            }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // 바닥에서 벗어났음을 감지하는 처리
-        isGrounded = false;
-    }
-    */
-
 }
