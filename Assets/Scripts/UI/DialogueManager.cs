@@ -7,7 +7,8 @@ public class DialogueManager : MonoBehaviour
 {
     public GameObject DialoguePanel; // 판넬 오브젝트를 가져옴
     public Text Dialogue; // 텍스트 오브젝트
-    public GameObject scanObject; // 스캔할 오브젝트
+
+    public GameObject scanObject; // 스캔 오브젝트
     public bool isAction; // Action 함수의 부울
 
     public void Action(GameObject scanObj)
