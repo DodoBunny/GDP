@@ -5,15 +5,24 @@ using UnityEngine.UI;
 
 public class GameScene : MonoBehaviour
 {
-    public Image fade;
-    public Text text;
+    public Image fadeinImg;
+    public Text fadeinText;
+
+    public Image fadeoutImg;
+    public Text fadeoutText;
 
     private void Awake()
     {
         Managers.Game.scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
         Managers.Game.player = GameObject.Find("Player");
-        StartCoroutine(FadeOut());
 
+        StartCoroutine(FadeOut());
+    }
+
+    public void StartFadeIn()
+    {
+        fadeinImg.gameObject.SetActive(true);
+        StartCoroutine(FadeIn());
     }
 
     IEnumerator FadeIn()
@@ -21,9 +30,10 @@ public class GameScene : MonoBehaviour
         float fadeCount = 0;
         while (fadeCount < 1.0f)
         {
-            fadeCount += 0.01f;
+            fadeCount += 0.005f;
             yield return new WaitForSeconds(0.01f);
-            fade.color = new Color(0, 0, 0, fadeCount);
+            fadeinImg.color = new Color(0, 0, 0, fadeCount);
+            fadeinText.color = new Color(255, 255, 255, fadeCount);
         }
     }
 
@@ -34,10 +44,10 @@ public class GameScene : MonoBehaviour
         {
             fadeCount -= 0.005f;
             yield return new WaitForSeconds(0.01f);
-            fade.color = new Color(0, 0, 0, fadeCount);
-            text.color = new Color(255, 255, 255, fadeCount);
+            fadeoutImg.color = new Color(0, 0, 0, fadeCount);
+            fadeoutText.color = new Color(255, 255, 255, fadeCount);
         }
-        Destroy(fade.gameObject);
+        Destroy(fadeoutImg.gameObject);
     }
 
 

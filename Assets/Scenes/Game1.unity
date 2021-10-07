@@ -852,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -982,7 +982,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251648392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.93, y: 16.63, z: -10.448907}
+  m_LocalPosition: {x: 7.93, y: 18.9, z: -10.448907}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4598,8 +4598,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5a2a4ab56bf724faae15359b0ee526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fade: {fileID: 57508072}
-  text: {fileID: 1791394396}
+  fadeinImg: {fileID: 119616404}
+  fadeinText: {fileID: 1435430375}
+  fadeoutImg: {fileID: 57508072}
+  fadeoutText: {fileID: 1791394396}
 --- !u!4 &1349952777
 Transform:
   m_ObjectHideFlags: 0
@@ -5192,7 +5194,7 @@ GameObject:
   - component: {fileID: 1435430376}
   - component: {fileID: 1435430375}
   m_Layer: 5
-  m_Name: Text
+  m_Name: FadeInText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5404,7 +5406,7 @@ GameObject:
   - component: {fileID: 1791394397}
   - component: {fileID: 1791394396}
   m_Layer: 5
-  m_Name: Text
+  m_Name: FadeOutText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
