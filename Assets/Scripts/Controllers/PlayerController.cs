@@ -30,8 +30,8 @@ public class PlayerController : MonoBehaviour
     // Dialogue
     Vector3 dirVec; // 단위 벡터 (방향을 알기위함)
     float h;
-    GameObject scanObject; // 스캔 오브젝트
     public DialogueManager D_manager;
+    public GameObject scanObject; // 스캔 오브젝트
 
     private void Awake()
     {
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
-        Ray2();
+        Ray();
 
     }
 
@@ -106,10 +106,10 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void Ray2()
+    void Ray()
     {
-        Debug.DrawRay(_rigid.position, dirVec * 0.5f, Color.red); // Ray 그리기 1
-        Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.5f, Color.red); // Ray 그리기 2
+        Debug.DrawRay(_rigid.position, dirVec * 0.7f, Color.red); // Ray 그리기 1
+        Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.7f, Color.red); // Ray 그리기 2
 
         RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 1
         RaycastHit2D rayHit2 = Physics2D.Raycast(_rigid.position, (-1) * dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 2
@@ -131,33 +131,13 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    //void Ray() // 오브젝트를 스캔한다.
-    //{
-    //    Debug.DrawRay(_rigid.position, dirVec * 0.5f, Color.red); // Ray 그리기 1
-    //    Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.5f, Color.red); // Ray 그리기 2
-
-    //    RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 1
-    //    RaycastHit2D rayHit2 = Physics2D.Raycast(_rigid.position, (-1) * dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 2
-
-    //    if (rayHit.collider != null || rayHit2.collider != null) // Ray에 닿는 콜라이더가 있다면
-    //    {
-    //        scanObject = rayHit.collider.gameObject; // scanObject에 그 콜라이더 오브젝트를 넣어준다.
-    //        scanObject = rayHit2.collider.gameObject;
-    //    }
-    //    else
-    //    {
-    //        scanObject = null; // scanObject에 null을 넣어준다.
-    //    }
-
-    //}
-
     void Scan() // v키(Interaction)을 누르면 함수 실행
     {
         if (Input.GetButtonDown("Interaction") && scanObject != null) // v키를 누르고 scanObject가 있다면
         {
             D_manager.Action(scanObject); // Action함수 실행
         }
-        else if(Input.GetButtonDown("Interaction") && scanObject == null)
+        else if (Input.GetButtonDown("Interaction") && scanObject == null)
         {
             D_manager.DialoguePanel.SetActive(false);
         }

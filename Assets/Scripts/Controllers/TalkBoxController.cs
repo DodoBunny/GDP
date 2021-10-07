@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueController : MonoBehaviour
+public class TalkBoxController : MonoBehaviour
 {
     public Transform startPos; // 시작위치
     public Transform endPos; // 도착위치

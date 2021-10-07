@@ -20,8 +20,9 @@ public class DialogueManager : MonoBehaviour
         else // 판넬이 꺼져있으면
         {
             isAction = true; // 판넬에 true값 준다
-            Dialogue.text = "안녕! 가천대학교에 온걸 환영해"; // 텍스트를 넣어준다
-            //scanObject = scanObj;
+            scanObject = scanObj;
+            Dialogue.text = "나는 " + scanObj.name + " 이라고 해!"; // 텍스트를 넣어준다
+            
 
         }
 
