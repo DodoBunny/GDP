@@ -7,6 +7,8 @@ public class FollowerController : MonoBehaviour
     Animator _anim;
     SpriteRenderer _sprite;
 
+    public F_DialogueManager F_manager;
+
     public float maxdist = 10f;
     public float movedist = 2f;
     public float moveTime = 2f;
@@ -48,5 +50,25 @@ public class FollowerController : MonoBehaviour
         {
             _sprite.flipX = false;
         }
+
+        if (Input.GetButtonDown("Interaction"))
+        {
+            //Debug.Log("이게 과연 될까요?");
+            F_manager.DialoguePanel.SetActive(false);
+        }
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Debug.Log(collision.gameObject.layer);
+
+        if (collision.gameObject.layer == 13)
+        {
+            //Debug.Log("이거 맞아?");
+            F_manager.Action();
+
+        }
+
     }
 }
