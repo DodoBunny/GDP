@@ -13,7 +13,7 @@ public class LobbyScene : MonoBehaviour
 
     public void GameStart()
     {
-        SceneManager.LoadScene("Game1");
+        SceneManager.LoadScene("Stage 1 - 1");
     }
     public void GameExit()
     {

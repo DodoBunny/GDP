@@ -1,0 +1,2842 @@
+fileFormatVersion: 2
+guid: 312f7b5b113726d4084c6dc792dc49b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4820648747566235614
+    second: Sprite-stage1_Building_0
+  - first:
+      213: -8444325604224780051
+    second: Sprite-stage1_Building_1
+  - first:
+      213: 8520259758787191940
+    second: Sprite-stage1_Building_2
+  - first:
+      213: -2562805212811694329
+    second: Sprite-stage1_Building_3
+  - first:
+      213: 234289819002360863
+    second: Sprite-stage1_Building_4
+  - first:
+      213: -7674859945791075529
+    second: Sprite-stage1_Building_5
+  - first:
+      213: -8289212757919376609
+    second: Sprite-stage1_Building_6
+  - first:
+      213: -3359192361385341612
+    second: Sprite-stage1_Building_7
+  - first:
+      213: 3272683435122176503
+    second: Sprite-stage1_Building_8
+  - first:
+      213: -7978588851377442984
+    second: Sprite-stage1_Building_9
+  - first:
+      213: 5937730319587496239
+    second: Sprite-stage1_Building_10
+  - first:
+      213: -5393717962947366586
+    second: Sprite-stage1_Building_11
+  - first:
+      213: -4618578755392091793
+    second: Sprite-stage1_Building_12
+  - first:
+      213: -8267283158500130464
+    second: Sprite-stage1_Building_13
+  - first:
+      213: 7444448832720250640
+    second: Sprite-stage1_Building_14
+  - first:
+      213: -774963741127612444
+    second: Sprite-stage1_Building_15
+  - first:
+      213: 8997100374168772533
+    second: Sprite-stage1_Building_16
+  - first:
+      213: -1181974302496030801
+    second: Sprite-stage1_Building_17
+  - first:
+      213: 3362197399227858395
+    second: Sprite-stage1_Building_18
+  - first:
+      213: 3880458031701385136
+    second: Sprite-stage1_Building_19
+  - first:
+      213: -4207239955543798238
+    second: Sprite-stage1_Building_20
+  - first:
+      213: -5290082599195336202
+    second: Sprite-stage1_Building_21
+  - first:
+      213: 7776312022427483924
+    second: Sprite-stage1_Building_22
+  - first:
+      213: 7744672556898196912
+    second: Sprite-stage1_Building_23
+  - first:
+      213: -7160109928909273556
+    second: Sprite-stage1_Building_24
+  - first:
+      213: -8339610654996425081
+    second: Sprite-stage1_Building_25
+  - first:
+      213: 5652673771390974167
+    second: Sprite-stage1_Building_26
+  - first:
+      213: -2410017334178618994
+    second: Sprite-stage1_Building_27
+  - first:
+      213: -7825635280300003356
+    second: Sprite-stage1_Building_28
+  - first:
+      213: -2308888843482679656
+    second: Sprite-stage1_Building_29
+  - first:
+      213: -3393686357939817966
+    second: Sprite-stage1_Building_30
+  - first:
+      213: -3964241368174037316
+    second: Sprite-stage1_Building_31
+  - first:
+      213: 6165477636516569688
+    second: Sprite-stage1_Building_32
+  - first:
+      213: 1363998066034904349
+    second: Sprite-stage1_Building_33
+  - first:
+      213: -2353445238491310292
+    second: Sprite-stage1_Building_34
+  - first:
+      213: 8155215551449363754
+    second: Sprite-stage1_Building_35
+  - first:
+      213: -3657875949696448921
+    second: Sprite-stage1_Building_36
+  - first:
+      213: -5517245238416464862
+    second: Sprite-stage1_Building_37
+  - first:
+      213: 232185620506288331
+    second: Sprite-stage1_Building_38
+  - first:
+      213: -865260459376145724
+    second: Sprite-stage1_Building_39
+  - first:
+      213: 6919558880646772505
+    second: Sprite-stage1_Building_40
+  - first:
+      213: 4862916370755654717
+    second: Sprite-stage1_Building_41
+  - first:
+      213: -8965673886824866966
+    second: Sprite-stage1_Building_42
+  - first:
+      213: -8453437583012950937
+    second: Sprite-stage1_Building_43
+  - first:
+      213: 8651937357559020551
+    second: Sprite-stage1_Building_44
+  - first:
+      213: -5943873102875028765
+    second: Sprite-stage1_Building_45
+  - first:
+      213: 6669990837676647411
+    second: Sprite-stage1_Building_46
+  - first:
+      213: -7273646932413222868
+    second: Sprite-stage1_Building_47
+  - first:
+      213: -1728038887444495394
+    second: Sprite-stage1_Building_48
+  - first:
+      213: -5572989786747329943
+    second: Sprite-stage1_Building_49
+  - first:
+      213: -4744917499127845319
+    second: Sprite-stage1_Building_50
+  - first:
+      213: 1960649723762303027
+    second: Sprite-stage1_Building_51
+  - first:
+      213: -2678012778027896118
+    second: Sprite-stage1_Building_52
+  - first:
+      213: 8314695505412838172
+    second: Sprite-stage1_Building_53
+  - first:
+      213: -1390372581215242049
+    second: Sprite-stage1_Building_54
+  - first:
+      213: -533540569263518439
+    second: Sprite-stage1_Building_55
+  - first:
+      213: 7419242526138709318
+    second: Sprite-stage1_Building_56
+  - first:
+      213: 2375464577641671253
+    second: Sprite-stage1_Building_57
+  - first:
+      213: -8855087012821710110
+    second: Sprite-stage1_Building_58
+  - first:
+      213: -397517273451400071
+    second: Sprite-stage1_Building_59
+  - first:
+      213: -9183286619554745274
+    second: Sprite-stage1_Building_60
+  - first:
+      213: 3411930621006170303
+    second: Sprite-stage1_Building_61
+  - first:
+      213: 6544257052771768679
+    second: Sprite-stage1_Building_62
+  - first:
+      213: -2029367018519302747
+    second: Sprite-stage1_Building_63
+  - first:
+      213: -7713140834712742726
+    second: Sprite-stage1_Building_64
+  - first:
+      213: -1793983523134942993
+    second: Sprite-stage1_Building_65
+  - first:
+      213: 1399607889412274687
+    second: Sprite-stage1_Building_66
+  - first:
+      213: 4781506136934855700
+    second: Sprite-stage1_Building_67
+  - first:
+      213: 2941828476461053706
+    second: Sprite-stage1_Building_68
+  - first:
+      213: 7823391138371150801
+    second: Sprite-stage1_Building_69
+  - first:
+      213: 4417070113084153835
+    second: Sprite-stage1_Building_70
+  - first:
+      213: 4095421498307765806
+    second: Sprite-stage1_Building_71
+  - first:
+      213: 6332432699890132364
+    second: Sprite-stage1_Building_72
+  - first:
+      213: 5237613099824752679
+    second: Sprite-stage1_Building_73
+  - first:
+      213: 5018962272525892492
+    second: Sprite-stage1_Building_74
+  - first:
+      213: -4890394269182306335
+    second: Sprite-stage1_Building_75
+  - first:
+      213: 4201743704026115782
+    second: Sprite-stage1_Building_76
+  - first:
+      213: -5702498222148447888
+    second: Sprite-stage1_Building_77
+  - first:
+      213: -1875725216002879537
+    second: Sprite-stage1_Building_78
+  - first:
+      213: 7980168204064712047
+    second: Sprite-stage1_Building_79
+  - first:
+      213: -8179372939894591813
+    second: Sprite-stage1_Building_80
+  - first:
+      213: 4310158449329607489
+    second: Sprite-stage1_Building_81
+  - first:
+      213: 3713917158366955170
+    second: Sprite-stage1_Building_82
+  - first:
+      213: -1545854685603988019
+    second: Sprite-stage1_Building_0
+  - first:
+      213: 2804288408151561345
+    second: Sprite-stage1_Building_1
+  - first:
+      213: -3187237283473419256
+    second: Sprite-stage1_Building_2
+  - first:
+      213: -8831259699902782289
+    second: Sprite-stage1_Building_3
+  - first:
+      213: 512654043936423652
+    second: Sprite-stage1_Building_4
+  - first:
+      213: -206640946538008373
+    second: Sprite-stage1_Building_5
+  - first:
+      213: 3424636552353505061
+    second: Sprite-stage1_Building_6
+  - first:
+      213: 552335097006210190
+    second: Sprite-stage1_Building_7
+  - first:
+      213: 547365406056981002
+    second: Sprite-stage1_Building_8
+  - first:
+      213: -3956163849829029484
+    second: Sprite-stage1_Building_9
+  - first:
+      213: 326527149994301221
+    second: Sprite-stage1_Building_10
+  - first:
+      213: -8948040504198506693
+    second: Sprite-stage1_Building_11
+  - first:
+      213: -8470551681240885780
+    second: Sprite-stage1_Building_12
+  - first:
+      213: 8784452677402971141
+    second: Sprite-stage1_Building_13
+  - first:
+      213: -5159723795415156190
+    second: Sprite-stage1_Building_14
+  - first:
+      213: 7863730876113822290
+    second: Sprite-stage1_Building_15
+  - first:
+      213: 2112365732004767786
+    second: Sprite-stage1_Building_16
+  - first:
+      213: 1140302337814827938
+    second: Sprite-stage1_Building_17
+  - first:
+      213: -4129786382829377812
+    second: Sprite-stage1_Building_18
+  - first:
+      213: 2154904350310200144
+    second: Sprite-stage1_Building_19
+  - first:
+      213: -671382295198758415
+    second: Sprite-stage1_Building_20
+  - first:
+      213: 4512688004754875703
+    second: Sprite-stage1_Building_21
+  - first:
+      213: -7458174147999793531
+    second: Sprite-stage1_Building_22
+  - first:
+      213: -7774978792501510335
+    second: Sprite-stage1_Building_23
+  - first:
+      213: -8583854436175397974
+    second: Sprite-stage1_Building_24
+  - first:
+      213: 2878312585224189299
+    second: Sprite-stage1_Building_25
+  - first:
+      213: -8873790605109850481
+    second: Sprite-stage1_Building_26
+  - first:
+      213: 4601686973542471981
+    second: Sprite-stage1_Building_27
+  - first:
+      213: 2936657259218664325
+    second: Sprite-stage1_Building_28
+  - first:
+      213: 7777732216462036519
+    second: Sprite-stage1_Building_29
+  - first:
+      213: 7559215615824403010
+    second: Sprite-stage1_Building_30
+  - first:
+      213: 860499596786758435
+    second: Sprite-stage1_Building_31
+  - first:
+      213: -3836004957642107258
+    second: Sprite-stage1_Building_32
+  - first:
+      213: 7416962400227389746
+    second: Sprite-stage1_Building_33
+  - first:
+      213: 7231770362376378179
+    second: Sprite-stage1_Building_34
+  - first:
+      213: 158030937207245805
+    second: Sprite-stage1_Building_35
+  - first:
+      213: 4255501207507120426
+    second: Sprite-stage1_Building_36
+  - first:
+      213: 7963010805710535603
+    second: Sprite-stage1_Building_37
+  - first:
+      213: 6005375266347509537
+    second: Sprite-stage1_Building_38
+  - first:
+      213: -8303284029552987765
+    second: Sprite-stage1_Building_39
+  - first:
+      213: 2155226278215475600
+    second: Sprite-stage1_Building_40
+  - first:
+      213: -6477296314164686879
+    second: Sprite-stage1_Building_41
+  - first:
+      213: 1037544106351436186
+    second: Sprite-stage1_Building_42
+  - first:
+      213: 1456147395744569379
+    second: Sprite-stage1_Building_43
+  - first:
+      213: -5773656124223818080
+    second: Sprite-stage1_Building_44
+  - first:
+      213: -2945990472405996891
+    second: Sprite-stage1_Building_45
+  - first:
+      213: 5283735639368162581
+    second: Sprite-stage1_Building_46
+  - first:
+      213: 6563385980304462200
+    second: Sprite-stage1_Building_47
+  - first:
+      213: -633213245146555430
+    second: Sprite-stage1_Building_48
+  - first:
+      213: 8562792301443108283
+    second: Sprite-stage1_Building_49
+  - first:
+      213: -6382434916693744853
+    second: Sprite-stage1_Building_50
+  - first:
+      213: 8475651932961511895
+    second: Sprite-stage1_Building_51
+  - first:
+      213: -6537987831744244013
+    second: Sprite-stage1_Building_52
+  - first:
+      213: -9218040678740302426
+    second: Sprite-stage1_Building_53
+  - first:
+      213: -1431593850278632955
+    second: Sprite-stage1_Building_54
+  - first:
+      213: 303389742468565469
+    second: Sprite-stage1_Building_55
+  - first:
+      213: -6488523398989374789
+    second: Sprite-stage1_Building_56
+  - first:
+      213: 6353063299295143920
+    second: Sprite-stage1_Building_57
+  - first:
+      213: 7991003180330062207
+    second: Sprite-stage1_Building_58
+  - first:
+      213: -3830470771241364402
+    second: Sprite-stage1_Building_59
+  - first:
+      213: -564476040757935148
+    second: Sprite-stage1_Building_60
+  - first:
+      213: 1440213780398999786
+    second: Sprite-stage1_Building_61
+  - first:
+      213: 7359161441828985830
+    second: Sprite-stage1_Building_62
+  - first:
+      213: -5027810427432087778
+    second: Sprite-stage1_Building_63
+  - first:
+      213: -2066199446416221347
+    second: Sprite-stage1_Building_64
+  - first:
+      213: -5169002116176989522
+    second: Sprite-stage1_Building_65
+  - first:
+      213: -7033065685925084384
+    second: Sprite-stage1_Building_66
+  - first:
+      213: 2731128078000618915
+    second: Sprite-stage1_Building_67
+  - first:
+      213: 1281182596468107648
+    second: Sprite-stage1_Building_68
+  - first:
+      213: 4418828516181574053
+    second: Sprite-stage1_Building_69
+  - first:
+      213: 1654907643724889099
+    second: Sprite-stage1_Building_70
+  - first:
+      213: 6728739762820548595
+    second: Sprite-stage1_Building_71
+  - first:
+      213: 5605388092090011885
+    second: Sprite-stage1_Building_72
+  - first:
+      213: 7419531956796336550
+    second: Sprite-stage1_Building_73
+  - first:
+      213: 6868212552885111585
+    second: Sprite-stage1_Building_74
+  - first:
+      213: 6298801399248213589
+    second: Sprite-stage1_Building_75
+  - first:
+      213: 6978310997360743015
+    second: Sprite-stage1_Building_76
+  - first:
+      213: -8940255650475510185
+    second: Sprite-stage1_Building_77
+  - first:
+      213: 415602864884209042
+    second: Sprite-stage1_Building_78
+  - first:
+      213: -699578317597660393
+    second: Sprite-stage1_Building_79
+  - first:
+      213: -1886292408477940565
+    second: Sprite-stage1_Building_80
+  - first:
+      213: 5819661822431282729
+    second: Sprite-stage1_Building_81
+  - first:
+      213: -5809015762308219570
+    second: Sprite-stage1_Building_82
+  - first:
+      213: 2653187707025358000
+    second: Sprite-stage1_Building_83
+  - first:
+      213: 7010496076767728368
+    second: Sprite-stage1_Building_84
+  - first:
+      213: -3339231044592074985
+    second: Sprite-stage1_Building_85
+  - first:
+      213: -4138544272641147272
+    second: Sprite-stage1_Building_86
+  - first:
+      213: -2241168262349304350
+    second: Sprite-stage1_Building_87
+  - first:
+      213: -9134007489617507023
+    second: Sprite-stage1_Building_88
+  - first:
+      213: -7515262972141787622
+    second: Sprite-stage1_Building_83
+  - first:
+      213: 7445200850312887268
+    second: Sprite-stage1_Building_84
+  - first:
+      213: 7476433020187636152
+    second: Sprite-stage1_Building_85
+  - first:
+      213: -8745072882142043643
+    second: Sprite-stage1_Building_86
+  - first:
+      213: -7706584578440294430
+    second: Sprite-stage1_Building_87
+  - first:
+      213: -6038951786848063155
+    second: Sprite-stage1_Building_88
+  - first:
+      213: 8478945883421730084
+    second: Sprite-stage1_Building_89
+  - first:
+      213: -6377982443291334239
+    second: Sprite-stage1_Building_90
+  - first:
+      213: -267892472205407221
+    second: Sprite-stage1_Building_91
+  - first:
+      213: 7372972834643910571
+    second: Sprite-stage1_Building_92
+  - first:
+      213: 3754789038810123961
+    second: Sprite-stage1_Building_93
+  - first:
+      213: 1403286093320849021
+    second: Sprite-stage1_Building_94
+  - first:
+      213: 6965819217316648779
+    second: Sprite-stage1_Building_95
+  - first:
+      213: 5134470752299120218
+    second: Sprite-stage1_Building_96
+  - first:
+      213: -4692298696000763577
+    second: Sprite-stage1_Building_97
+  - first:
+      213: 4524251238988709966
+    second: Sprite-stage1_Building_98
+  - first:
+      213: 3949442945273404868
+    second: Sprite-stage1_Building_99
+  - first:
+      213: 5086984677014914395
+    second: Sprite-stage1_Building_89
+  - first:
+      213: -2707583418994252722
+    second: Sprite-stage1_Building_90
+  - first:
+      213: -4394133205059968673
+    second: Sprite-stage1_Building_91
+  - first:
+      213: 6599996553802648646
+    second: Sprite-stage1_Building_92
+  - first:
+      213: -6056629400009712555
+    second: Sprite-stage1_Building_93
+  - first:
+      213: 205933999692324596
+    second: Sprite-stage1_Building_94
+  - first:
+      213: 3381329417509120880
+    second: Sprite-stage1_Building_95
+  - first:
+      213: 123185459612590642
+    second: Sprite-stage1_Building_96
+  - first:
+      213: -1996270792147020129
+    second: Sprite-stage1_Building_97
+  - first:
+      213: -5099482209220130586
+    second: Sprite-stage1_Building_98
+  - first:
+      213: -6954320737268643484
+    second: Sprite-stage1_Building_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd733e8a550c8ae0800000000000000
+      internalID: -1545854685603988019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1849e9f0375dae620800000000000000
+      internalID: 2804288408151561345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8049fafc398a4c3d0800000000000000
+      internalID: -3187237283473419256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4621cc710117580800000000000000
+      internalID: -8831259699902782289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7f7503205d1700800000000000000
+      internalID: 512654043936423652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc03d89672dd12df0800000000000000
+      internalID: -206640946538008373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f59d3ccc0c68f20800000000000000
+      internalID: 3424636552353505061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c390628d94aa700800000000000000
+      internalID: 552335097006210190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a022d5ecfe1a89700800000000000000
+      internalID: 547365406056981002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499e2b170f1e819c0800000000000000
+      internalID: -3956163849829029484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5275ee086be088400800000000000000
+      internalID: 326527149994301221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37d077f19c22d380800000000000000
+      internalID: -8948040504198506693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce59c04ff1e827a80800000000000000
+      internalID: -8470551681240885780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c45d60b25a8e970800000000000000
+      internalID: 8784452677402971141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a3623ab8af468b0800000000000000
+      internalID: -5159723795415156190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25229086195912d60800000000000000
+      internalID: 7863730876113822290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a282ad30171a05d10800000000000000
+      internalID: 2112365732004767786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a310064fea23df00800000000000000
+      internalID: 1140302337814827938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6a5355a2d00b6c0800000000000000
+      internalID: -4129786382829377812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053fe25e612c7ed10800000000000000
+      internalID: 2154904350310200144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f901321c55cea6f0800000000000000
+      internalID: -671382295198758415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735a491c4d940ae30800000000000000
+      internalID: 4512688004754875703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e7873a02e3f7890800000000000000
+      internalID: -7458174147999793531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f70c85bf9b91490800000000000000
+      internalID: -7774978792501510335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabba189ed500e880800000000000000
+      internalID: -8583854436175397974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375f2dadb02d1f720800000000000000
+      internalID: 2878312585224189299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e8a33c576f9d480800000000000000
+      internalID: -8873790605109850481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d299a81fbe97cdf30800000000000000
+      internalID: 4601686973542471981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bfccad73a11c820800000000000000
+      internalID: 2936657259218664325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ec4502e3e00fb60800000000000000
+      internalID: 7777732216462036519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a9cc95d8ab7e860800000000000000
+      internalID: 7559215615824403010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32377dbf2db11fb00800000000000000
+      internalID: 860499596786758435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686da17a0d5c3cac0800000000000000
+      internalID: -3836004957642107258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2317bf991085ee660800000000000000
+      internalID: 7416962400227389746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34754aa34d86c5460800000000000000
+      internalID: 7231770362376378179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb82c3dc40713200800000000000000
+      internalID: 158030937207245805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2135b63dc39e0b30800000000000000
+      internalID: 4255501207507120426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb39f0532c428e60800000000000000
+      internalID: 7963010805710535603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1276f85acf0675350800000000000000
+      internalID: 6005375266347509537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81f155fa2fc4cc80800000000000000
+      internalID: -8303284029552987765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091ee9391e6e8ed10800000000000000
+      internalID: 2155226278215475600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef444902550c16a0800000000000000
+      internalID: -6477296314164686879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91a0e91ed8166e00800000000000000
+      internalID: 1037544106351436186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32817f76756453410800000000000000
+      internalID: 1456147395744569379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6716c585adfdfa0800000000000000
+      internalID: -5773656124223818080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2e8c164dbd17d0800000000000000
+      internalID: -2945990472405996891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d5c9fc199935940800000000000000
+      internalID: 5283735639368162581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_47
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87193d756c4d51b50800000000000000
+      internalID: 6563385980304462200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb97ff88ef5637f0800000000000000
+      internalID: -633213245146555430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_49
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd47f40b3625d670800000000000000
+      internalID: 8562792301443108283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b236b6442490d67a0800000000000000
+      internalID: -6382434916693744853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d91600f6809f9570800000000000000
+      internalID: 8475651932961511895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6de0fe4b66445a0800000000000000
+      internalID: -6537987831744244013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5659a87d0f21080800000000000000
+      internalID: -9218040678740302426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50222836af4f12ce0800000000000000
+      internalID: -1431593850278632955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd906540d5bd53400800000000000000
+      internalID: 303389742468565469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba9d66a85224f5a0800000000000000
+      internalID: -6488523398989374789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7ee06296d9a2850800000000000000
+      internalID: 6353063299295143920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71179aed0fb5ee60800000000000000
+      internalID: 7991003180330062207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4454a5d02f67dac0800000000000000
+      internalID: -3830470771241364402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3876a18049a28f0800000000000000
+      internalID: -564476040757935148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae80e4d7dcaacf310800000000000000
+      internalID: 1440213780398999786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebd7f0475ef02660800000000000000
+      internalID: 7359161441828985830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc7e20e01a93ab0800000000000000
+      internalID: -5027810427432087778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b9049fc826353e0800000000000000
+      internalID: -2066199446416221347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_65
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2370e36f30448b0800000000000000
+      internalID: -5169002116176989522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023427c7508856e90800000000000000
+      internalID: -7033065685925084384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad725d448ae6e520800000000000000
+      internalID: 2731128078000618915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e4e298cca7c110800000000000000
+      internalID: 1281182596468107648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a18e5e9f15d25d30800000000000000
+      internalID: 4418828516181574053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cfc40ebb967f610800000000000000
+      internalID: 1654907643724889099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f707f4f929416d50800000000000000
+      internalID: 6728739762820548595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0da3965c65acd40800000000000000
+      internalID: 5605388092090011885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9218c110977f660800000000000000
+      internalID: 7419531956796336550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b88907deac05f50800000000000000
+      internalID: 6868212552885111585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5565ce80086d96750800000000000000
+      internalID: 6298801399248213589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76293e121e0f7d060800000000000000
+      internalID: 6978310997360743015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7567a387ad4dde380800000000000000
+      internalID: -8940255650475510185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295de098a9484c500800000000000000
+      internalID: 415602864884209042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_79
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ba6070a399a46f0800000000000000
+      internalID: -699578317597660393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4082a6c0b82d5e0800000000000000
+      internalID: -1886292408477940565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9264be6f79793c050800000000000000
+      internalID: 5819661822431282729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d39f011fa326fa0800000000000000
+      internalID: -5809015762308219570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_83
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16a7d7f42c64b790800000000000000
+      internalID: -7515262972141787622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebf55c1abaa25760800000000000000
+      internalID: 7445200850312887268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_85
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f8435830a1c760800000000000000
+      internalID: 7476433020187636152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_86
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502a50d0c8243a680800000000000000
+      internalID: -8745072882142043643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_87
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef009a3826bc0590800000000000000
+      internalID: -7706584578440294430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41f5397855513ca0800000000000000
+      internalID: -6038951786848063155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_89
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55445b9c99989640800000000000000
+      internalID: 5086984677014914395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e442c1fc93bbc6ad0800000000000000
+      internalID: -2707583418994252722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e6a09127e403c0800000000000000
+      internalID: -4394133205059968673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c853cb5e5e79b50800000000000000
+      internalID: 6599996553802648646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cdb3c66a782fba0800000000000000
+      internalID: -6056629400009712555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe16d2b1ef9bd200800000000000000
+      internalID: 205933999692324596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba53fa035ecee20800000000000000
+      internalID: 3381329417509120880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_96
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232a3b9d584a5b100800000000000000
+      internalID: 123185459612590642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_97
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d69e8a42db44e0800000000000000
+      internalID: -1996270792147020129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_98
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8820de2fffa39b0800000000000000
+      internalID: -5099482209220130586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-stage1_Building_99
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46948f0922a4d7f90800000000000000
+      internalID: -6954320737268643484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
