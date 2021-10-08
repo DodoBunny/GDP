@@ -1282,7 +1282,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.9895833
+  orthographic size: 6.6041665
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5508,6 +5508,71 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Game2
+--- !u!1001 &1692118549
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5010343760407274817, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_Name
+      value: F_Dialogue Point 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274817, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_TagString
+      value: F_Dialogue 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274817, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
 --- !u!1 &1791394394
 GameObject:
   m_ObjectHideFlags: 0
@@ -9880,6 +9945,38 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778329, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778330, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778330, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778330, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778330, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.19607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778330, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836288560778330, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302836289298622758, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 654bc7b879f6c884589d566b3ee6ad7d, type: 3}
 --- !u!1001 &4067831570689862993
@@ -10018,7 +10115,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5010343760407274817, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
       propertyPath: m_Name
-      value: F_Dialogue Point
+      value: F_Dialogue Point 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010343760407274817, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
+      propertyPath: m_TagString
+      value: F_Dialogue 1
       objectReference: {fileID: 0}
     - target: {fileID: 5010343760407274819, guid: ff3d9936b20d21d43accfafb1c7dc3f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10287,6 +10388,22 @@ PrefabInstance:
     - target: {fileID: 6920175557902846296, guid: 66400e4a77e44a842a58dc5905c90566, type: 3}
       propertyPath: m_Name
       value: Dialogue UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920175558492315483, guid: 66400e4a77e44a842a58dc5905c90566, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920175558492315483, guid: 66400e4a77e44a842a58dc5905c90566, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920175558492315484, guid: 66400e4a77e44a842a58dc5905c90566, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920175558492315485, guid: 66400e4a77e44a842a58dc5905c90566, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66400e4a77e44a842a58dc5905c90566, type: 3}

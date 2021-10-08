@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - F_Dialogue 1
+  - F_Dialogue 2
   layers:
   - Default
   - TransparentFX

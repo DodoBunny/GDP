@@ -10,7 +10,7 @@ public class F_DialogueManager : MonoBehaviour
 
     public bool isAction; // Action 함수의 부울
 
-    public void Action()
+    public void Action(string text)
     {
         if (isAction) // 판넬이 켜져있으면
         {
@@ -19,8 +19,7 @@ public class F_DialogueManager : MonoBehaviour
         else // 판넬이 꺼져있으면
         {
             isAction = true; // 판넬에 true값 준다
-            Dialogue.text = "안녕 XX과에 입학한 OO맞지?. 나는 같은과 선배라고 해." + "\n" + "입시때 제외하곤 학교 온게 처음일텐데 내가 학교 건물이랑 위치등을 알려줄게. 그럼 따라와!";
-
+            Dialogue.text = text;
 
         }
 
