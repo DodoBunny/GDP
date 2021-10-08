@@ -30,8 +30,8 @@ public class PlayerController : MonoBehaviour
     // Dialogue
     Vector3 dirVec; // 단위 벡터 (방향을 알기위함)
     float h;
-    GameObject scanObject; // 스캔할 게임 오브젝트
-    public DialogueManager D_manager; // 대화메니저를 가져온다 (Action함수를 가져오기 위함)
+    GameObject scanObject; // 스캔 오브젝트
+    public DialogueManager D_manager;
 
     private void Awake()
     {
@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
         _sprite = GetComponent<SpriteRenderer>();
         _audio = GetComponent<AudioSource>();
         groundMask = LayerMask.GetMask("Ground");
+
     }
 
     // Update is called once per frame
@@ -51,11 +52,14 @@ public class PlayerController : MonoBehaviour
         Jump();
         SetAnim();
         GroundChk();
+
     }
+
     private void FixedUpdate()
     {
         Move();
-        Ray();
+        Ray2();
+
     }
 
     void Move()
@@ -69,6 +73,7 @@ public class PlayerController : MonoBehaviour
             else if (_rigid.velocity.x < maxSpeed * (-1))
                 _rigid.velocity = new Vector2(maxSpeed * (-1), _rigid.velocity.y);
         }
+
     }
 
     void Jump()
@@ -82,6 +87,7 @@ public class PlayerController : MonoBehaviour
             _audio.Play(); // 점프 효과음 재생
             _anim.SetTrigger("Jump");
         }
+
     }
 
     void Direction()
@@ -89,25 +95,34 @@ public class PlayerController : MonoBehaviour
         h = Input.GetAxisRaw("Horizontal");
 
         // Direction
-        if (h == 1)
+        if (h == 1) // 오른쪽 방향키를 누르면 1이 입력
         {
-            dirVec = Vector3.right;
+            dirVec = Vector3.right; // dirVec에 오른쪽
         }
-        else if (h == -1)
+        else if (h == -1) // 왼쪽 방향키를 누르면 -1이 입력
         {
-            dirVec = Vector3.left;
+            dirVec = Vector3.left; // dirVec에 왼쪽
         }
 
     }
 
-    void Ray() // 오브젝트를 스캔한다.
+    void Ray2()
     {
-        Debug.DrawRay(_rigid.position, dirVec * 0.5f, new Color(0, 1, 0)); // Ray 그리기
-        RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.5f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기
+        Debug.DrawRay(_rigid.position, dirVec * 0.5f, Color.red); // Ray 그리기 1
+        Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.5f, Color.red); // Ray 그리기 2
+
+        RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 1
+        RaycastHit2D rayHit2 = Physics2D.Raycast(_rigid.position, (-1) * dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 2
 
         if (rayHit.collider != null) // Ray에 닿는 콜라이더가 있다면
         {
             scanObject = rayHit.collider.gameObject; // scanObject에 그 콜라이더 오브젝트를 넣어준다.
+
+        }
+        else if (rayHit2.collider != null)
+        {
+            scanObject = rayHit2.collider.gameObject;
+
         }
         else
         {
@@ -116,11 +131,35 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    //void Ray() // 오브젝트를 스캔한다.
+    //{
+    //    Debug.DrawRay(_rigid.position, dirVec * 0.5f, Color.red); // Ray 그리기 1
+    //    Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.5f, Color.red); // Ray 그리기 2
+
+    //    RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 1
+    //    RaycastHit2D rayHit2 = Physics2D.Raycast(_rigid.position, (-1) * dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 2
+
+    //    if (rayHit.collider != null || rayHit2.collider != null) // Ray에 닿는 콜라이더가 있다면
+    //    {
+    //        scanObject = rayHit.collider.gameObject; // scanObject에 그 콜라이더 오브젝트를 넣어준다.
+    //        scanObject = rayHit2.collider.gameObject;
+    //    }
+    //    else
+    //    {
+    //        scanObject = null; // scanObject에 null을 넣어준다.
+    //    }
+
+    //}
+
     void Scan() // v키(Interaction)을 누르면 함수 실행
     {
-        if (Input.GetButtonDown("Interaction") && scanObject != null)
+        if (Input.GetButtonDown("Interaction") && scanObject != null) // v키를 누르고 scanObject가 있다면
         {
-            D_manager.Action(scanObject);
+            D_manager.Action(scanObject); // Action함수 실행
+        }
+        else if(Input.GetButtonDown("Interaction") && scanObject == null)
+        {
+            D_manager.DialoguePanel.SetActive(false);
         }
 
     }
@@ -147,10 +186,12 @@ public class PlayerController : MonoBehaviour
 
         if (_rigid.velocity.y <= -3f && isGrounded == false)
             _anim.Play("Falling");
+
     }
 
     void GroundChk()
     {
         isGrounded = Physics2D.OverlapCircle(chkPos.position, checkRadius, groundMask);
+
     }
 }
