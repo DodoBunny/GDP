@@ -12,8 +12,14 @@ public class ClearArea : MonoBehaviour
         Debug.Log("트리거 충돌");
         if(collision.gameObject == Managers.Game.player)
         {
-            SceneManager.LoadScene(targetScene);
+            GameObject.Find("@Scene").GetComponent<GameScene>().StartFadeIn();
+            Invoke("LoadScene",4f);
         }
+    }
+
+    private void LoadScene()
+    {
+        SceneManager.LoadScene(targetScene);
     }
 
 }
