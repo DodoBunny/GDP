@@ -9,11 +9,13 @@ public class Managers : MonoBehaviour
 
 	#region Contents
 	GameManager _game = new GameManager();
+    DialogManager _dialog = new DialogManager();
 
     public static GameManager Game {  get { return Instance._game; } }
-	#endregion
+    public static DialogManager Dialog { get { return Instance._dialog; } }
+    #endregion
 
-	#region Core
+    #region Core
     InputManager _input = new InputManager();
     SoundManager _sound = new SoundManager();
 
@@ -32,6 +34,7 @@ public class Managers : MonoBehaviour
     {
         _input.OnUpdate();
         _game.OnUpdate();
+        _dialog.OnUpdate();
     }
 
     static void Init()
@@ -52,6 +55,5 @@ public class Managers : MonoBehaviour
 
     public static void Clear()
     {
-        Input.Clear();
     }
 }

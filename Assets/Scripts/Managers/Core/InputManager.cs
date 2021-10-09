@@ -20,9 +20,4 @@ public class InputManager
         vertical = Input.GetAxisRaw("Vertical");
 
     }
-
-    public void Clear()
-    {
-        //변수 초기화
-    }
 }
