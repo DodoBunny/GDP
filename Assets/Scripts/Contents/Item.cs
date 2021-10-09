@@ -5,7 +5,7 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     [SerializeField]
-    Define.Sounds soundType;
+    Define.Sounds soundType = Define.Sounds.Food;
     [SerializeField]
     int score = 0;
 

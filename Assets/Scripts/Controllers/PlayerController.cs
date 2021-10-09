@@ -27,12 +27,6 @@ public class PlayerController : MonoBehaviour
     public Transform chkPos;
     public float checkRadius;
 
-    // Dialogue
-    Vector3 dirVec; // 단위 벡터 (방향을 알기위함)
-    float h;
-    GameObject scanObject; // 스캔 오브젝트
-    public DialogueManager D_manager;
-
     private void Awake()
     {
         _collider = GetComponent<CapsuleCollider2D>();
@@ -47,18 +41,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Direction();
-        Scan();
-        Jump();
-        SetAnim();
-        GroundChk();
+      Jump();
+      SetAnim();
+      GroundChk();
 
     }
 
     private void FixedUpdate()
     {
         Move();
-        Ray2();
 
     }
 
@@ -90,97 +81,29 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void Direction()
-    {
-        h = Input.GetAxisRaw("Horizontal");
-
-        // Direction
-        if (h == 1) // 오른쪽 방향키를 누르면 1이 입력
-        {
-            dirVec = Vector3.right; // dirVec에 오른쪽
-        }
-        else if (h == -1) // 왼쪽 방향키를 누르면 -1이 입력
-        {
-            dirVec = Vector3.left; // dirVec에 왼쪽
-        }
-
-    }
-
-    void Ray2()
-    {
-        Debug.DrawRay(_rigid.position, dirVec * 0.5f, Color.red); // Ray 그리기 1
-        Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.5f, Color.red); // Ray 그리기 2
-
-        RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 1
-        RaycastHit2D rayHit2 = Physics2D.Raycast(_rigid.position, (-1) * dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 2
-
-        if (rayHit.collider != null) // Ray에 닿는 콜라이더가 있다면
-        {
-            scanObject = rayHit.collider.gameObject; // scanObject에 그 콜라이더 오브젝트를 넣어준다.
-
-        }
-        else if (rayHit2.collider != null)
-        {
-            scanObject = rayHit2.collider.gameObject;
-
-        }
-        else
-        {
-            scanObject = null; // scanObject에 null을 넣어준다.
-        }
-
-    }
-
-    //void Ray() // 오브젝트를 스캔한다.
-    //{
-    //    Debug.DrawRay(_rigid.position, dirVec * 0.5f, Color.red); // Ray 그리기 1
-    //    Debug.DrawRay(_rigid.position, (-1) * dirVec * 0.5f, Color.red); // Ray 그리기 2
-
-    //    RaycastHit2D rayHit = Physics2D.Raycast(_rigid.position, dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 1
-    //    RaycastHit2D rayHit2 = Physics2D.Raycast(_rigid.position, (-1) * dirVec, 0.7f, LayerMask.GetMask("Dialogue")); // Raycast 효과 넣기 2
-
-    //    if (rayHit.collider != null || rayHit2.collider != null) // Ray에 닿는 콜라이더가 있다면
-    //    {
-    //        scanObject = rayHit.collider.gameObject; // scanObject에 그 콜라이더 오브젝트를 넣어준다.
-    //        scanObject = rayHit2.collider.gameObject;
-    //    }
-    //    else
-    //    {
-    //        scanObject = null; // scanObject에 null을 넣어준다.
-    //    }
-
-    //}
-
-    void Scan() // v키(Interaction)을 누르면 함수 실행
-    {
-        if (Input.GetButtonDown("Interaction") && scanObject != null) // v키를 누르고 scanObject가 있다면
-        {
-            D_manager.Action(scanObject); // Action함수 실행
-        }
-        else if(Input.GetButtonDown("Interaction") && scanObject == null)
-        {
-            D_manager.DialoguePanel.SetActive(false);
-        }
-
-    }
-
     void SetAnim()
     {
-        if (Managers.Input.horizontal < 0)
+        if (canMove)
         {
-            _anim.SetBool("IsMove", true);
-            _sprite.flipX = true;
-        }
-        else if (Managers.Input.horizontal > 0)
-        {
-            _anim.SetBool("IsMove", true);
-            _sprite.flipX = false;
+            if (Managers.Input.horizontal < 0)
+            {
+                _anim.SetBool("IsMove", true);
+                _sprite.flipX = true;
+            }
+            else if (Managers.Input.horizontal > 0)
+            {
+                _anim.SetBool("IsMove", true);
+                _sprite.flipX = false;
+            }
+            else
+            {
+                _anim.SetBool("IsMove", false);
+            }
         }
         else
         {
             _anim.SetBool("IsMove", false);
         }
-
 
         _anim.SetBool("IsGrounded", isGrounded);
 

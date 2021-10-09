@@ -11,10 +11,20 @@ public class GameScene : MonoBehaviour
     public Image fadeoutImg;
     public Text fadeoutText;
 
+    public GameObject NPC_UI;
+    public Text NPC_Text;
+    public Image NPC_Sprite;
+
+
     private void Awake()
     {
         Managers.Game.scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
         Managers.Game.player = GameObject.Find("Player");
+
+        Managers.Dialog.NPCPanel = NPC_UI;
+        Managers.Dialog.NPCText = NPC_Text;
+        Managers.Dialog.NPCSprite = NPC_Sprite;
+
 
         StartCoroutine(FadeOut());
     }
