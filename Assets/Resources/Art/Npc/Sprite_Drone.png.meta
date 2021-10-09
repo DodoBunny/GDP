@@ -1,493 +1,307 @@
 fileFormatVersion: 2
-guid: 614ad06692cfb4cbeb7986bda6ac497e
+guid: df1821f94bcf9154aad978b3f34c699b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1786693314793860269
-    second: Sprite_NPC0002_0
+      213: 1969813737780750619
+    second: Sprite_Drone_0
   - first:
-      213: -992974935311197273
-    second: Sprite_NPC0002_1
+      213: 4922996590662192705
+    second: Sprite_Drone_1
   - first:
-      213: 791908132581584954
-    second: Sprite_NPC0002_2
+      213: -6437417927460491773
+    second: Sprite_Drone_2
   - first:
-      213: -2350142360040383833
-    second: Sprite_NPC0002_3
+      213: -1989152553850383956
+    second: Sprite_Drone_3
   - first:
-      213: 575888501889338312
-    second: Sprite_NPC0002_4
+      213: -7131365478017530407
+    second: Sprite_Drone_4
   - first:
-      213: 5221505186513833692
-    second: Sprite_NPC0002_5
+      213: 2136635834795939264
+    second: Sprite_Drone_5
   - first:
-      213: -6215506475551433042
-    second: Sprite_NPC0002_6
+      213: 551040207369693451
+    second: Sprite_Drone_6
   - first:
-      213: 546763719334670371
-    second: Sprite_NPC0002_7
+      213: -2434255817834858020
+    second: Sprite_Drone_7
   - first:
-      213: 9125662238101479580
-    second: Sprite_NPC0002_8
+      213: 1647922765627317833
+    second: Sprite_Drone_8
   - first:
-      213: -2805808856188962804
-    second: Sprite_NPC0002_9
+      213: -1145097761320685979
+    second: Sprite_Drone_9
   - first:
-      213: 1784572185142669951
-    second: Sprite_NPC0002_10
+      213: -7875499914461862397
+    second: Sprite_Drone_10
   - first:
-      213: 6638952809273320507
-    second: Sprite_NPC0002_11
+      213: 7554312869091586494
+    second: Sprite_Drone_11
   - first:
-      213: -5065428256440399276
-    second: Sprite_NPC0002_12
+      213: -5257941725832661500
+    second: Sprite_Drone_12
   - first:
-      213: 1426348757764279917
-    second: Sprite_NPC0002_13
+      213: 1868182468175860132
+    second: Sprite_Drone_13
   - first:
-      213: -3096028427042015243
-    second: Sprite_NPC0002_14
+      213: -3853605177368876289
+    second: Sprite_Drone_14
   - first:
-      213: -1049248345587571339
-    second: Sprite_NPC0002_15
+      213: -2147189471168706282
+    second: Sprite_Drone_15
   - first:
-      213: 5711403479451422548
-    second: Sprite_NPC0002_16
+      213: 3180515331262816747
+    second: Sprite_Drone_16
   - first:
-      213: 1226035061119176386
-    second: Sprite_NPC0002_17
+      213: 3290849263141585517
+    second: Sprite_Drone_17
   - first:
-      213: -4198051649704118189
-    second: Sprite_NPC0002_0
+      213: -4858082682835968966
+    second: Sprite_Drone_18
   - first:
-      213: -6579918569761891271
-    second: Sprite_NPC0002_1
+      213: -8000111901294525196
+    second: Sprite_Drone_19
   - first:
-      213: 1061169123279018569
-    second: Sprite_NPC0002_2
+      213: -2290875356043821665
+    second: Sprite_Drone_20
   - first:
-      213: -1451325674057328330
-    second: Sprite_NPC0002_3
+      213: -4611062031289159713
+    second: Sprite_Drone_21
   - first:
-      213: 8898960130645657370
-    second: Sprite_NPC0002_4
+      213: -4222080130986991885
+    second: Sprite_Drone_22
   - first:
-      213: -6979741592704146268
-    second: Sprite_NPC0002_5
+      213: -7471378236244673628
+    second: Sprite_Drone_23
   - first:
-      213: -7589943983771974704
-    second: Sprite_NPC0002_6
+      213: -7749180517098422813
+    second: Sprite_Drone_24
   - first:
-      213: 2536468384931786489
-    second: Sprite_NPC0002_7
+      213: -8327563709634500409
+    second: Sprite_Drone_25
   - first:
-      213: 4658813225211366079
-    second: Sprite_NPC0002_8
+      213: -6224346518624537166
+    second: Sprite_Drone_26
   - first:
-      213: 6353829924818725948
-    second: Sprite_NPC0002_9
+      213: 3909082837826331527
+    second: Sprite_Drone_27
   - first:
-      213: -7261768012257352293
-    second: Sprite_NPC0002_10
+      213: 1066009422864028696
+    second: Sprite_Drone_28
   - first:
-      213: 6000343242732789312
-    second: Sprite_NPC0002_11
+      213: -2009427503003465211
+    second: Sprite_Drone_29
   - first:
-      213: 6776141036104227407
-    second: Sprite_NPC0002_12
+      213: -3973370603200610795
+    second: Sprite_Drone_30
   - first:
-      213: 4405966523226141898
-    second: Sprite_NPC0002_13
+      213: 7690978516578569577
+    second: Sprite_Drone_31
   - first:
-      213: -6063524406525058458
-    second: Sprite_NPC0002_14
+      213: -7976460365406414151
+    second: Sprite_Drone_32
   - first:
-      213: -4011185910338018182
-    second: Sprite_NPC0002_15
+      213: -7377360373360438489
+    second: Sprite_Drone_33
   - first:
-      213: 7820935049338539719
-    second: Sprite_NPC0002_16
+      213: 5733371379767705222
+    second: Sprite_Drone_34
   - first:
-      213: -7837134130892055119
-    second: Sprite_NPC0002_17
+      213: 3720419831415078743
+    second: Sprite_Drone_35
   - first:
-      213: -5041873734390286696
-    second: Sprite_NPC0002_18
+      213: 8002497489268221725
+    second: Sprite_Drone_36
   - first:
-      213: -8121976559458586005
-    second: Sprite_NPC0002_19
+      213: 8594180703616658292
+    second: Sprite_Drone_37
   - first:
-      213: 5842094571922476300
-    second: Sprite_Npc0002_0
+      213: -1697057404901540159
+    second: Sprite_Drone_38
   - first:
-      213: 4493141601554406533
-    second: Sprite_Npc0002_1
+      213: 2908563420809218575
+    second: Sprite_Drone_39
   - first:
-      213: 483660004534352592
-    second: Sprite_Npc0002_2
+      213: 3609119126567462370
+    second: Sprite_Drone_40
   - first:
-      213: -3557638328716229766
-    second: Sprite_Npc0002_3
+      213: 39123371920688896
+    second: Sprite_Drone_41
   - first:
-      213: 3197026736309645827
-    second: Sprite_Npc0002_4
+      213: 181357344417405979
+    second: Sprite_Drone_42
   - first:
-      213: -2715862384674776995
-    second: Sprite_Npc0002_5
+      213: -222725641331958539
+    second: Sprite_Drone_43
   - first:
-      213: -882725355629595634
-    second: Sprite_Npc0002_6
+      213: 3058360309247929338
+    second: Sprite_Drone_44
   - first:
-      213: -541295681579291040
-    second: Sprite_Npc0002_7
+      213: -8088145566167468870
+    second: Sprite_Drone_45
   - first:
-      213: -286565845089051917
-    second: Sprite_Npc0002_8
+      213: 1584938807484830287
+    second: Sprite_Drone_46
   - first:
-      213: 503785471925826113
-    second: Sprite_Npc0002_9
+      213: -1814935622520712514
+    second: Sprite_Drone_47
   - first:
-      213: 616705465502140009
-    second: Sprite_Npc0002_10
+      213: -3572492574142253616
+    second: Sprite_Drone_48
   - first:
-      213: -2425415746025608906
-    second: Sprite_Npc0002_11
+      213: 4543938640516122764
+    second: Sprite_Drone_49
   - first:
-      213: -5266313497385973520
-    second: Sprite_Npc0002_12
+      213: -9065943152199664258
+    second: Sprite_Drone_50
   - first:
-      213: 1532262490881882994
-    second: Sprite_Npc0002_13
+      213: 2327256645296788065
+    second: Sprite_Drone_51
   - first:
-      213: -3077702229841023981
-    second: Sprite_Npc0002_14
+      213: 3427747000212818827
+    second: Sprite_Drone_52
   - first:
-      213: -6159744011334762611
-    second: Sprite_Npc0002_15
+      213: 7401745862931925469
+    second: Sprite_Drone_53
   - first:
-      213: 5113270357113926998
-    second: Sprite_Npc0002_16
+      213: 781098182876558005
+    second: Sprite_Drone_54
   - first:
-      213: 4174505816036393627
-    second: Sprite_Npc0002_17
+      213: -8927048270715680639
+    second: Sprite_Drone_55
   - first:
-      213: -3374946863921143100
-    second: Sprite_Npc0002_18
+      213: 6878422890305262054
+    second: Sprite_Drone_56
   - first:
-      213: -3883860307226901164
-    second: Sprite_Npc0002_19
+      213: -5875629040926443184
+    second: Sprite_Drone_57
   - first:
-      213: -4870671492475674532
-    second: Sprite_Npc0002_20
+      213: -1354263169808470773
+    second: Sprite_Drone_58
   - first:
-      213: 965108785667865915
-    second: Sprite_Npc0002_21
+      213: 5613952495080363951
+    second: Sprite_Drone_59
   - first:
-      213: -4164135055743613528
-    second: Sprite_Npc0002_0
+      213: -8693287124330211712
+    second: Sprite_Drone_60
   - first:
-      213: -6737645162483021545
-    second: Sprite_Npc0002_1
+      213: -799176590669934973
+    second: Sprite_Drone_61
   - first:
-      213: 4686789155499735749
-    second: Sprite_Npc0002_2
+      213: -4481045239407284473
+    second: Sprite_Drone_62
   - first:
-      213: 3619438444292724018
-    second: Sprite_Npc0002_3
+      213: -6801080355452465705
+    second: Sprite_Drone_63
   - first:
-      213: -3690472739336199333
-    second: Sprite_Npc0002_4
+      213: 4355670848546757946
+    second: Sprite_Drone_64
   - first:
-      213: -736878811421266096
-    second: Sprite_Npc0002_5
+      213: 1587749871611943746
+    second: Sprite_Drone_65
   - first:
-      213: -1237386925871493675
-    second: Sprite_Npc0002_6
+      213: -5382011787020985055
+    second: Sprite_Drone_66
   - first:
-      213: 6330315433028074597
-    second: Sprite_Npc0002_7
+      213: -1570383722106132535
+    second: Sprite_Drone_67
   - first:
-      213: -4668114231592573227
-    second: Sprite_Npc0002_8
+      213: -1231947843258202008
+    second: Sprite_Drone_68
   - first:
-      213: -1784924492923188275
-    second: Sprite_Npc0002_9
+      213: -6619926857238303671
+    second: Sprite_Drone_69
   - first:
-      213: -3948609649081432132
-    second: Sprite_Npc0002_10
+      213: -1032782847413576262
+    second: Sprite_Drone_70
   - first:
-      213: 7753162976203866248
-    second: Sprite_Npc0002_11
+      213: 2784714506257154885
+    second: Sprite_Drone_71
   - first:
-      213: 5248670088132068912
-    second: Sprite_Npc0002_12
+      213: -5722855553270995436
+    second: Sprite_Drone_72
   - first:
-      213: 7906177748219584520
-    second: Sprite_Npc0002_13
+      213: 2963135962409400854
+    second: Sprite_Drone_73
   - first:
-      213: 1275273073690502396
-    second: Sprite_Npc0002_14
+      213: -473278211631489448
+    second: Sprite_Drone_74
   - first:
-      213: 9091525094348969311
-    second: Sprite_Npc0002_15
+      213: -8991829069133447114
+    second: Sprite_Drone_75
   - first:
-      213: 120947948069156975
-    second: Sprite_Npc0002_16
+      213: 5413718531846260031
+    second: Sprite_Drone_76
   - first:
-      213: 593728728242173610
-    second: Sprite_Npc0002_17
+      213: 7241737812517324134
+    second: Sprite_Drone_77
   - first:
-      213: 2181879325230791799
-    second: Sprite_Npc0002_18
+      213: -5738080891726559300
+    second: Sprite_Drone_78
   - first:
-      213: 8861021962326752977
-    second: Sprite_Npc0002_19
+      213: -2833928146231367442
+    second: Sprite_Drone_79
   - first:
-      213: -3887098064888570838
-    second: Sprite_Npc0002_20
+      213: -7834130259429104581
+    second: Sprite_Drone_80
   - first:
-      213: -327419142779679845
-    second: Sprite_Npc0002_21
+      213: 5948962604115029006
+    second: Sprite_Drone_81
   - first:
-      213: -264293339570873815
-    second: Sprite_Npc0002_22
+      213: -87829245758965213
+    second: Sprite_Drone_82
   - first:
-      213: 7993164481043269939
-    second: Sprite_Npc0002_23
+      213: -725033825493783512
+    second: Sprite_Drone_83
   - first:
-      213: -1834316473596511952
-    second: Sprite_Npc0002_22
+      213: -3111704907749825355
+    second: Sprite_Drone_84
   - first:
-      213: 5869982145762776103
-    second: Sprite_Npc0002_23
+      213: -9103451216015767643
+    second: Sprite_Drone_85
   - first:
-      213: 9051414857723387081
-    second: Sprite_Npc0002_24
+      213: 7840316558299534001
+    second: Sprite_Drone_86
   - first:
-      213: -2500162450812039202
-    second: Sprite_Npc0002_25
+      213: 6936818840607701701
+    second: Sprite_Drone_87
   - first:
-      213: 2197296364314351941
-    second: Sprite_Npc0002_26
+      213: 2969793706426219748
+    second: Sprite_Drone_88
   - first:
-      213: 1368571698299393140
-    second: Sprite_Npc0002_27
+      213: 5204527730550375151
+    second: Sprite_Drone_89
   - first:
-      213: 4346564081714427521
-    second: Sprite_Npc0002_28
+      213: -4641993291984543529
+    second: Sprite_Drone_90
   - first:
-      213: -4499859348316451931
-    second: Sprite_Npc0002_29
+      213: 3991649610325634715
+    second: Sprite_Drone_91
   - first:
-      213: 3318671398358050232
-    second: Sprite_Npc0002_30
+      213: -7914708861284975039
+    second: Sprite_Drone_92
   - first:
-      213: 1910571066337247899
-    second: Sprite_Npc0002_31
+      213: 90878529884482682
+    second: Sprite_Drone_93
   - first:
-      213: 7910612546430700517
-    second: Sprite_Npc0002_32
+      213: 354820246749680335
+    second: Sprite_Drone_94
   - first:
-      213: -3982985987231640580
-    second: Sprite_Npc0002_33
+      213: -4940807949705339154
+    second: Sprite_Drone_95
   - first:
-      213: 6923111610132119561
-    second: Sprite_Npc0002_34
+      213: 6379213106305566835
+    second: Sprite_Drone_96
   - first:
-      213: 4111078147313634026
-    second: Sprite_Npc0002_35
+      213: -7645999935954838812
+    second: Sprite_Drone_97
   - first:
-      213: 3740951573512907244
-    second: Sprite_Npc0002_36
+      213: 7761781874714232938
+    second: Sprite_Drone_98
   - first:
-      213: 3692689893119949095
-    second: Sprite_Npc0002_37
-  - first:
-      213: 4963465528982374691
-    second: Sprite_Npc0002_38
-  - first:
-      213: -8291257373190347624
-    second: Sprite_Npc0002_39
-  - first:
-      213: 6136177215598160544
-    second: Sprite_Npc0002_40
-  - first:
-      213: 5627879261805660512
-    second: Sprite_Npc0002_41
-  - first:
-      213: 8150005016814736487
-    second: Sprite_Npc0002_42
-  - first:
-      213: 4862326363050604547
-    second: Sprite_Npc0002_43
-  - first:
-      213: -5246053323060811392
-    second: Sprite_Npc0002_44
-  - first:
-      213: 5431346168970812581
-    second: Sprite_Npc0002_45
-  - first:
-      213: 7328884645463698804
-    second: Sprite_Npc0002_46
-  - first:
-      213: -3275405786184340372
-    second: Sprite_Npc0002_47
-  - first:
-      213: 5910397582300390997
-    second: Sprite_Npc0002_48
-  - first:
-      213: -7027234532680030020
-    second: Sprite_Npc0002_49
-  - first:
-      213: -6116365007660644135
-    second: Sprite_Npc0002_50
-  - first:
-      213: 8464348420051274507
-    second: Sprite_Npc0002_51
-  - first:
-      213: 4360019978852426161
-    second: Sprite_Npc0002_52
-  - first:
-      213: 52402552360430622
-    second: Sprite_Npc0002_53
-  - first:
-      213: -5085506376815216424
-    second: Sprite_Npc0002_54
-  - first:
-      213: 5829366221935719445
-    second: Sprite_Npc0002_55
-  - first:
-      213: -387021419572464992
-    second: Sprite_Npc0002_56
-  - first:
-      213: -7960470652592935030
-    second: Sprite_Npc0002_57
-  - first:
-      213: -5755355668855505867
-    second: Sprite_Npc0002_58
-  - first:
-      213: 2392645831316668085
-    second: Sprite_Npc0002_59
-  - first:
-      213: 3643661880056133181
-    second: Sprite_Npc0002_60
-  - first:
-      213: 6345121172018589727
-    second: Sprite_Npc0002_61
-  - first:
-      213: 7715980890312502080
-    second: Sprite_Npc0002_62
-  - first:
-      213: 8002831257469041985
-    second: Sprite_Npc0002_63
-  - first:
-      213: 1911686323577797595
-    second: Sprite_Npc0002_64
-  - first:
-      213: 6141886718832205118
-    second: Sprite_Npc0002_65
-  - first:
-      213: -1128898316393613889
-    second: Sprite_Npc0002_66
-  - first:
-      213: -3093716742308753225
-    second: Sprite_Npc0002_67
-  - first:
-      213: -708243338752682903
-    second: Sprite_Npc0002_68
-  - first:
-      213: 5689926471009740894
-    second: Sprite_Npc0002_69
-  - first:
-      213: 8174459090811759793
-    second: Sprite_Npc0002_70
-  - first:
-      213: 952579213214533303
-    second: Sprite_Npc0002_71
-  - first:
-      213: 630513489279866639
-    second: Sprite_Npc0002_72
-  - first:
-      213: -2423915213039663148
-    second: Sprite_Npc0002_73
-  - first:
-      213: 3337979023192825748
-    second: Sprite_Npc0002_74
-  - first:
-      213: -8157858057416297721
-    second: Sprite_Npc0002_75
-  - first:
-      213: 8313127457369782655
-    second: Sprite_Npc0002_76
-  - first:
-      213: -6513514809033257200
-    second: Sprite_Npc0002_77
-  - first:
-      213: 7482225741640134069
-    second: Sprite_Npc0002_78
-  - first:
-      213: -4336794227810815737
-    second: Sprite_Npc0002_79
-  - first:
-      213: 6013779441187000079
-    second: Sprite_Npc0002_80
-  - first:
-      213: -310709678816408754
-    second: Sprite_Npc0002_81
-  - first:
-      213: -5008690769487087594
-    second: Sprite_Npc0002_82
-  - first:
-      213: -8254935775362573239
-    second: Sprite_Npc0002_83
-  - first:
-      213: 2417534792460793675
-    second: Sprite_Npc0002_84
-  - first:
-      213: 3915740056016561793
-    second: Sprite_Npc0002_85
-  - first:
-      213: 425292494314453208
-    second: Sprite_Npc0002_86
-  - first:
-      213: 6009647310089762735
-    second: Sprite_Npc0002_87
-  - first:
-      213: 508080155842398580
-    second: Sprite_Npc0002_88
-  - first:
-      213: 9013447935222399256
-    second: Sprite_Npc0002_89
-  - first:
-      213: 6180491117450214781
-    second: Sprite_Npc0002_90
-  - first:
-      213: 1876817374343135252
-    second: Sprite_Npc0002_91
-  - first:
-      213: -2448137969401967642
-    second: Sprite_Npc0002_92
-  - first:
-      213: 5628480813776306049
-    second: Sprite_Npc0002_93
-  - first:
-      213: 8172333479880386571
-    second: Sprite_Npc0002_94
-  - first:
-      213: -8518030473065945827
-    second: Sprite_Npc0002_95
-  - first:
-      213: -1551531748044256102
-    second: Sprite_Npc0002_96
-  - first:
-      213: -8183925903890486332
-    second: Sprite_Npc0002_97
-  - first:
-      213: 802912497124827299
-    second: Sprite_Npc0002_98
-  - first:
-      213: 73302637439993971
-    second: Sprite_Npc0002_99
+      213: -959457127082409552
+    second: Sprite_Drone_99
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -611,11 +425,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_Npc0002_0
+      name: Sprite_Drone_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -625,18 +439,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a586a5ba350636c0800000000000000
-      internalID: -4164135055743613528
+      spriteID: b192b12782f265b10800000000000000
+      internalID: 1969813737780750619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_1
+      name: Sprite_Drone_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -646,18 +460,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 719029b1c631f72a0800000000000000
-      internalID: -6737645162483021545
+      spriteID: 14e01e8e05ff15440800000000000000
+      internalID: 4922996590662192705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_2
+      name: Sprite_Drone_2
       rect:
         serializedVersion: 2
         x: 96
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -667,18 +481,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5caf6beb7e1da0140800000000000000
-      internalID: 4686789155499735749
+      spriteID: 30e6cfa7082b9a6a0800000000000000
+      internalID: -6437417927460491773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_3
+      name: Sprite_Drone_3
       rect:
         serializedVersion: 2
         x: 144
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -688,18 +502,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235d576a614da3230800000000000000
-      internalID: 3619438444292724018
+      spriteID: ca1dfaf8a4c1564e0800000000000000
+      internalID: -1989152553850383956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_4
+      name: Sprite_Drone_4
       rect:
         serializedVersion: 2
         x: 192
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -709,18 +523,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b536a96b89ec8ccc0800000000000000
-      internalID: -3690472739336199333
+      spriteID: 9d5084f91ec480d90800000000000000
+      internalID: -7131365478017530407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_5
+      name: Sprite_Drone_5
       rect:
         serializedVersion: 2
         x: 240
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -730,18 +544,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05f29ba00a416c5f0800000000000000
-      internalID: -736878811421266096
+      spriteID: 0c5d16ba8fad6ad10800000000000000
+      internalID: 2136635834795939264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_6
+      name: Sprite_Drone_6
       rect:
         serializedVersion: 2
         x: 288
-        y: 452
+        y: 432
         width: 48
         height: 48
       alignment: 0
@@ -751,18 +565,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dd87b9952be3dee0800000000000000
-      internalID: -1237386925871493675
+      spriteID: b096a392620b5a700800000000000000
+      internalID: 551040207369693451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_7
+      name: Sprite_Drone_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9768d1b39c73ed0800000000000000
+      internalID: -2434255817834858020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ede7636099ed610800000000000000
+      internalID: 1647922765627317833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ea26f27abcb10f0800000000000000
+      internalID: -1145097761320685979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 404
+        y: 384
         width: 48
         height: 48
       alignment: 0
@@ -772,18 +649,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56cbfcdc85cc9d750800000000000000
-      internalID: 6330315433028074597
+      spriteID: 306a1e1dd8a94b290800000000000000
+      internalID: -7875499914461862397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_8
+      name: Sprite_Drone_11
       rect:
         serializedVersion: 2
         x: 48
-        y: 404
+        y: 384
         width: 48
         height: 48
       alignment: 0
@@ -793,18 +670,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6aafec6d6873fb0800000000000000
-      internalID: -4668114231592573227
+      spriteID: eb1bd5ca78f46d860800000000000000
+      internalID: 7554312869091586494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_9
+      name: Sprite_Drone_12
       rect:
         serializedVersion: 2
         x: 96
-        y: 404
+        y: 384
         width: 48
         height: 48
       alignment: 0
@@ -814,18 +691,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcb4b6071acaa37e0800000000000000
-      internalID: -1784924492923188275
+      spriteID: 4063a0eabd90807b0800000000000000
+      internalID: -5257941725832661500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_10
+      name: Sprite_Drone_13
       rect:
         serializedVersion: 2
         x: 144
-        y: 404
+        y: 384
         width: 48
         height: 48
       alignment: 0
@@ -835,18 +712,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb742ddd178b339c0800000000000000
-      internalID: -3948609649081432132
+      spriteID: 4a11c378e0e1de910800000000000000
+      internalID: 1868182468175860132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_11
+      name: Sprite_Drone_14
       rect:
         serializedVersion: 2
         x: 192
-        y: 404
+        y: 384
         width: 48
         height: 48
       alignment: 0
@@ -856,18 +733,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 880875a16a4c89b60800000000000000
-      internalID: 7753162976203866248
+      spriteID: ffa625a228e358ac0800000000000000
+      internalID: -3853605177368876289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_12
+      name: Sprite_Drone_15
       rect:
         serializedVersion: 2
         x: 240
-        y: 404
+        y: 384
         width: 48
         height: 48
       alignment: 0
@@ -877,18 +754,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0368452f2a507d840800000000000000
-      internalID: 5248670088132068912
+      spriteID: 619c7816d86a332e0800000000000000
+      internalID: -2147189471168706282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_13
+      name: Sprite_Drone_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1aa9ab7d5732c20800000000000000
+      internalID: 3180515331262816747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6209ea18f17bad20800000000000000
+      internalID: 3290849263141585517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cd5180a8f949cb0800000000000000
+      internalID: -4858082682835968966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f407f7bc94e9f090800000000000000
+      internalID: -8000111901294525196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 356
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -898,18 +859,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 800e9b5f5c268bd60800000000000000
-      internalID: 7906177748219584520
+      spriteID: f9dbf42500d2530e0800000000000000
+      internalID: -2290875356043821665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_14
+      name: Sprite_Drone_21
       rect:
         serializedVersion: 2
         x: 48
-        y: 356
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -919,18 +880,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf461f49a1ea2b110800000000000000
-      internalID: 1275273073690502396
+      spriteID: fdfe7b353873200c0800000000000000
+      internalID: -4611062031289159713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_15
+      name: Sprite_Drone_22
       rect:
         serializedVersion: 2
         x: 96
-        y: 356
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -940,18 +901,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f55583387e59b2e70800000000000000
-      internalID: 9091525094348969311
+      spriteID: 3fe194b8d782865c0800000000000000
+      internalID: -4222080130986991885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_16
+      name: Sprite_Drone_23
       rect:
         serializedVersion: 2
         x: 144
-        y: 356
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -961,18 +922,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6879f89481bda100800000000000000
-      internalID: 120947948069156975
+      spriteID: 4ab3d064415505890800000000000000
+      internalID: -7471378236244673628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_17
+      name: Sprite_Drone_24
       rect:
         serializedVersion: 2
         x: 192
-        y: 356
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -982,18 +943,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa6b1d3f1295d3800800000000000000
-      internalID: 593728728242173610
+      spriteID: 3ed78f96061657490800000000000000
+      internalID: -7749180517098422813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_18
+      name: Sprite_Drone_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c82dca6dec8e6c80800000000000000
+      internalID: -8327563709634500409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5f17eb1ddae99a0800000000000000
+      internalID: -6224346518624537166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783e63a312adf3630800000000000000
+      internalID: 3909082837826331527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81497011ce93bce00800000000000000
+      internalID: 1066009422864028696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a049915541d14e0800000000000000
+      internalID: -2009427503003465211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Drone_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1003,18 +1069,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77c762bafa7974e10800000000000000
-      internalID: 2181879325230791799
+      spriteID: 51e7f3bfc70cbd8c0800000000000000
+      internalID: -3973370603200610795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_19
+      name: Sprite_Drone_31
       rect:
         serializedVersion: 2
         x: 48
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1024,18 +1090,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1debb6be68ca8fa70800000000000000
-      internalID: 8861021962326752977
+      spriteID: 96d83d75638dbba60800000000000000
+      internalID: 7690978516578569577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_20
+      name: Sprite_Drone_32
       rect:
         serializedVersion: 2
         x: 96
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1045,18 +1111,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2c553b97e04e0ac0800000000000000
-      internalID: -3887098064888570838
+      spriteID: 9bad7fa0f8bed4190800000000000000
+      internalID: -7976460365406414151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_21
+      name: Sprite_Drone_33
       rect:
         serializedVersion: 2
         x: 144
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1066,18 +1132,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b44fd3606c47bf0800000000000000
-      internalID: -327419142779679845
+      spriteID: 723decdc3d95e9990800000000000000
+      internalID: -7377360373360438489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_22
+      name: Sprite_Drone_34
       rect:
         serializedVersion: 2
         x: 192
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1087,18 +1153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 039f1a9c2e23b86e0800000000000000
-      internalID: -1834316473596511952
+      spriteID: 68ef178a4e6019f40800000000000000
+      internalID: 5733371379767705222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_23
+      name: Sprite_Drone_35
       rect:
         serializedVersion: 2
         x: 240
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1108,18 +1174,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 724531c39ad567150800000000000000
-      internalID: 5869982145762776103
+      spriteID: 75f70d2002691a330800000000000000
+      internalID: 3720419831415078743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_24
+      name: Sprite_Drone_36
       rect:
         serializedVersion: 2
         x: 288
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1129,18 +1195,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc9b4d4bd51d9d70800000000000000
-      internalID: 9051414857723387081
+      spriteID: d17a9c341159e0f60800000000000000
+      internalID: 8002497489268221725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_25
+      name: Sprite_Drone_37
       rect:
         serializedVersion: 2
         x: 336
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1150,18 +1216,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edf04965f73ad4dd0800000000000000
-      internalID: -2500162450812039202
+      spriteID: 47b6696e0d9a44770800000000000000
+      internalID: 8594180703616658292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_26
+      name: Sprite_Drone_38
       rect:
         serializedVersion: 2
         x: 384
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1171,18 +1237,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 549d63dc66d5e7e10800000000000000
-      internalID: 2197296364314351941
+      spriteID: 1ceb5691847d278e0800000000000000
+      internalID: -1697057404901540159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_27
+      name: Sprite_Drone_39
       rect:
         serializedVersion: 2
         x: 432
-        y: 308
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -1192,270 +1258,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 474d9c665b42ef210800000000000000
-      internalID: 1368571698299393140
+      spriteID: f0a4700650b4d5820800000000000000
+      internalID: 2908563420809218575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_28
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 452
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1867f04d009125c30800000000000000
-      internalID: 4346564081714427521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_29
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 452
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ab806493c94d81c0800000000000000
-      internalID: -4499859348316451931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_30
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 452
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b56161cd0a4e0e20800000000000000
-      internalID: 3318671398358050232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_31
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 404
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b92cb2f1346b38a10800000000000000
-      internalID: 1910571066337247899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_32
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 404
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5eb00c1e23428cd60800000000000000
-      internalID: 7910612546430700517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_33
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 404
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf313bde85799b8c0800000000000000
-      internalID: -3982985987231640580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_34
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 404
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 900ce464455d31060800000000000000
-      internalID: 6923111610132119561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_35
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 356
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aea00862bcb7d0930800000000000000
-      internalID: 4111078147313634026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_36
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 356
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce9ec2db2a78ae330800000000000000
-      internalID: 3740951573512907244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_37
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 356
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 729f611a4e11f3330800000000000000
-      internalID: 3692689893119949095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_38
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 356
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32904edd995c1e440800000000000000
-      internalID: 4963465528982374691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_39
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 356
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 894a6a919598fec80800000000000000
-      internalID: -8291257373190347624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Npc0002_40
+      name: Sprite_Drone_40
       rect:
         serializedVersion: 2
         x: 0
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1465,18 +1279,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aae29eaaa4182550800000000000000
-      internalID: 6136177215598160544
+      spriteID: 2e52f1349ba261230800000000000000
+      internalID: 3609119126567462370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_41
+      name: Sprite_Drone_41
       rect:
         serializedVersion: 2
         x: 48
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1486,18 +1300,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 069c6beee5e3a1e40800000000000000
-      internalID: 5627879261805660512
+      spriteID: 0078fbddf7efa8000800000000000000
+      internalID: 39123371920688896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_42
+      name: Sprite_Drone_42
       rect:
         serializedVersion: 2
         x: 96
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1507,18 +1321,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 764d4e8d162aa1170800000000000000
-      internalID: 8150005016814736487
+      spriteID: b1c586b3b8f448200800000000000000
+      internalID: 181357344417405979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_43
+      name: Sprite_Drone_43
       rect:
         serializedVersion: 2
         x: 144
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1528,18 +1342,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308f5a3c0147a7340800000000000000
-      internalID: 4862326363050604547
+      spriteID: 5fc99029538b8ecf0800000000000000
+      internalID: -222725641331958539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_44
+      name: Sprite_Drone_44
       rect:
         serializedVersion: 2
         x: 192
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1549,18 +1363,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 089e3362c464237b0800000000000000
-      internalID: -5246053323060811392
+      spriteID: afb60e35f7a717a20800000000000000
+      internalID: 3058360309247929338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_45
+      name: Sprite_Drone_45
       rect:
         serializedVersion: 2
         x: 240
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1570,18 +1384,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ac1fad6094006b40800000000000000
-      internalID: 5431346168970812581
+      spriteID: ab4ffecd57221cf80800000000000000
+      internalID: -8088145566167468870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_46
+      name: Sprite_Drone_46
       rect:
         serializedVersion: 2
         x: 288
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1591,18 +1405,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47dada441cd65b560800000000000000
-      internalID: 7328884645463698804
+      spriteID: f425dd2b275def510800000000000000
+      internalID: 1584938807484830287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_47
+      name: Sprite_Drone_47
       rect:
         serializedVersion: 2
         x: 336
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1612,18 +1426,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6c29339acb6b82d0800000000000000
-      internalID: -3275405786184340372
+      spriteID: eb25371daad00d6e0800000000000000
+      internalID: -1814935622520712514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_48
+      name: Sprite_Drone_48
       rect:
         serializedVersion: 2
         x: 384
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1633,18 +1447,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 556a7565943f50250800000000000000
-      internalID: 5910397582300390997
+      spriteID: 0d5b7838ee4fb6ec0800000000000000
+      internalID: -3572492574142253616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_49
+      name: Sprite_Drone_49
       rect:
         serializedVersion: 2
         x: 432
-        y: 260
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -1654,18 +1468,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb8af36ac6f3a7e90800000000000000
-      internalID: -7027234532680030020
+      spriteID: c8882256e105f0f30800000000000000
+      internalID: 4543938640516122764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_50
+      name: Sprite_Drone_50
       rect:
         serializedVersion: 2
         x: 0
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1675,18 +1489,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d802c17e6e4e1ba0800000000000000
-      internalID: -6116365007660644135
+      spriteID: e7df04b8cbc4f2280800000000000000
+      internalID: -9065943152199664258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_51
+      name: Sprite_Drone_51
       rect:
         serializedVersion: 2
         x: 48
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1696,18 +1510,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b8b40ca08677570800000000000000
-      internalID: 8464348420051274507
+      spriteID: 162151ca6931c4020800000000000000
+      internalID: 2327256645296788065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_52
+      name: Sprite_Drone_52
       rect:
         serializedVersion: 2
         x: 96
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1717,18 +1531,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1ea150217e18c30800000000000000
-      internalID: 4360019978852426161
+      spriteID: b8b88975cbdc19f20800000000000000
+      internalID: 3427747000212818827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_53
+      name: Sprite_Drone_53
       rect:
         serializedVersion: 2
         x: 144
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1738,18 +1552,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1c64cef7db2ab000800000000000000
-      internalID: 52402552360430622
+      spriteID: dd946cd65a848b660800000000000000
+      internalID: 7401745862931925469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_54
+      name: Sprite_Drone_54
       rect:
         serializedVersion: 2
         x: 192
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1759,18 +1573,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d8f1faf4e6ac69b0800000000000000
-      internalID: -5085506376815216424
+      spriteID: 5b27f0da8a407da00800000000000000
+      internalID: 781098182876558005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_55
+      name: Sprite_Drone_55
       rect:
         serializedVersion: 2
         x: 240
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1780,18 +1594,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514b32c81b116e050800000000000000
-      internalID: 5829366221935719445
+      spriteID: 1880a3335e0cc1480800000000000000
+      internalID: -8927048270715680639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_56
+      name: Sprite_Drone_56
       rect:
         serializedVersion: 2
         x: 288
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1801,18 +1615,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a27ae5c11601aaf0800000000000000
-      internalID: -387021419572464992
+      spriteID: 6e19f8fdc21157f50800000000000000
+      internalID: 6878422890305262054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_57
+      name: Sprite_Drone_57
       rect:
         serializedVersion: 2
         x: 336
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1822,18 +1636,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8fa64b2e1ab68190800000000000000
-      internalID: -7960470652592935030
+      spriteID: 0593c978482957ea0800000000000000
+      internalID: -5875629040926443184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_58
+      name: Sprite_Drone_58
       rect:
         serializedVersion: 2
         x: 384
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1843,18 +1657,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c36d9238ed020b0800000000000000
-      internalID: -5755355668855505867
+      spriteID: b0deb2f72d0b43de0800000000000000
+      internalID: -1354263169808470773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_59
+      name: Sprite_Drone_59
       rect:
         serializedVersion: 2
         x: 432
-        y: 212
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -1864,18 +1678,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bef2f0f4b2643120800000000000000
-      internalID: 2392645831316668085
+      spriteID: fa7de2fdc04c8ed40800000000000000
+      internalID: 5613952495080363951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_60
+      name: Sprite_Drone_60
       rect:
         serializedVersion: 2
         x: 0
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -1885,18 +1699,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d36b06acc23e09230800000000000000
-      internalID: 3643661880056133181
+      spriteID: 08612df5b6d3b5780800000000000000
+      internalID: -8693287124330211712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_61
+      name: Sprite_Drone_61
       rect:
         serializedVersion: 2
         x: 48
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -1906,18 +1720,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f107afa86166e0850800000000000000
-      internalID: 6345121172018589727
+      spriteID: 38e8f400021c8e4f0800000000000000
+      internalID: -799176590669934973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_62
+      name: Sprite_Drone_62
       rect:
         serializedVersion: 2
         x: 96
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -1927,18 +1741,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b67cc1dbba41b60800000000000000
-      internalID: 7715980890312502080
+      spriteID: 70f6caaa81120d1c0800000000000000
+      internalID: -4481045239407284473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_63
+      name: Sprite_Drone_63
       rect:
         serializedVersion: 2
         x: 144
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -1948,18 +1762,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14db5dab0a4cf0f60800000000000000
-      internalID: 8002831257469041985
+      spriteID: 7dd4e5c4375bd91a0800000000000000
+      internalID: -6801080355452465705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_64
+      name: Sprite_Drone_64
       rect:
         serializedVersion: 2
         x: 192
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -1969,18 +1783,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdbb3de259ca78a10800000000000000
-      internalID: 1911686323577797595
+      spriteID: a3d57263f83727c30800000000000000
+      internalID: 4355670848546757946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_65
+      name: Sprite_Drone_65
       rect:
         serializedVersion: 2
         x: 240
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -1990,18 +1804,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3ddeaefd6d5c3550800000000000000
-      internalID: 6141886718832205118
+      spriteID: 24b1a919812d80610800000000000000
+      internalID: 1587749871611943746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_66
+      name: Sprite_Drone_66
       rect:
         serializedVersion: 2
         x: 288
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -2011,18 +1825,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb572df56f85550f0800000000000000
-      internalID: -1128898316393613889
+      spriteID: 12d16a97bc04f45b0800000000000000
+      internalID: -5382011787020985055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_67
+      name: Sprite_Drone_67
       rect:
         serializedVersion: 2
         x: 336
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -2032,18 +1846,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b0120b9309e015d0800000000000000
-      internalID: -3093716742308753225
+      spriteID: 9c7eec23350e43ae0800000000000000
+      internalID: -1570383722106132535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_68
+      name: Sprite_Drone_68
       rect:
         serializedVersion: 2
         x: 384
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -2053,18 +1867,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9641c139f60db26f0800000000000000
-      internalID: -708243338752682903
+      spriteID: 86849c4b6fd37eee0800000000000000
+      internalID: -1231947843258202008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_69
+      name: Sprite_Drone_69
       rect:
         serializedVersion: 2
         x: 432
-        y: 164
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -2074,18 +1888,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e58a0a69afda6fe40800000000000000
-      internalID: 5689926471009740894
+      spriteID: 94c2e33e89b4124a0800000000000000
+      internalID: -6619926857238303671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_70
+      name: Sprite_Drone_70
       rect:
         serializedVersion: 2
         x: 0
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2095,18 +1909,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc2cc2ab33817170800000000000000
-      internalID: 8174459090811759793
+      spriteID: abd1cc1e871daa1f0800000000000000
+      internalID: -1032782847413576262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_71
+      name: Sprite_Drone_71
       rect:
         serializedVersion: 2
         x: 48
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2116,18 +1930,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6c2185fbd383d00800000000000000
-      internalID: 952579213214533303
+      spriteID: 543c552e61b45a620800000000000000
+      internalID: 2784714506257154885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_72
+      name: Sprite_Drone_72
       rect:
         serializedVersion: 2
         x: 96
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2137,18 +1951,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f075e9a8da800c800800000000000000
-      internalID: 630513489279866639
+      spriteID: 416296ef1355490b0800000000000000
+      internalID: -5722855553270995436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_73
+      name: Sprite_Drone_73
       rect:
         serializedVersion: 2
         x: 144
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2158,18 +1972,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d70b19c4f58c5ed0800000000000000
-      internalID: -2423915213039663148
+      spriteID: 61af89c557c2f1920800000000000000
+      internalID: 2963135962409400854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_74
+      name: Sprite_Drone_74
       rect:
         serializedVersion: 2
         x: 192
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2179,18 +1993,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49f1d197c32e25e20800000000000000
-      internalID: 3337979023192825748
+      spriteID: 85ed5cb59f39e69f0800000000000000
+      internalID: -473278211631489448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_75
+      name: Sprite_Drone_75
       rect:
         serializedVersion: 2
         x: 240
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2200,18 +2014,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 703b4a7a15779ce80800000000000000
-      internalID: -8157858057416297721
+      spriteID: 63005453a1b963380800000000000000
+      internalID: -8991829069133447114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_76
+      name: Sprite_Drone_76
       rect:
         serializedVersion: 2
         x: 288
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2221,18 +2035,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f79721da0692e5370800000000000000
-      internalID: 8313127457369782655
+      spriteID: f3545a45254612b40800000000000000
+      internalID: 5413718531846260031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_77
+      name: Sprite_Drone_77
       rect:
         serializedVersion: 2
         x: 336
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2242,18 +2056,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f83509ac85b95a0800000000000000
-      internalID: -6513514809033257200
+      spriteID: 6650c9f0c22df7460800000000000000
+      internalID: 7241737812517324134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_78
+      name: Sprite_Drone_78
       rect:
         serializedVersion: 2
         x: 384
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2263,18 +2077,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bd6eb36ba436d760800000000000000
-      internalID: 7482225741640134069
+      spriteID: cb78e24a4dd3e50b0800000000000000
+      internalID: -5738080891726559300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_79
+      name: Sprite_Drone_79
       rect:
         serializedVersion: 2
         x: 432
-        y: 116
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -2284,18 +2098,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7013f5b80ac90d3c0800000000000000
-      internalID: -4336794227810815737
+      spriteID: ee8e5e4ad5ddba8d0800000000000000
+      internalID: -2833928146231367442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_80
+      name: Sprite_Drone_80
       rect:
         serializedVersion: 2
         x: 0
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2305,18 +2119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0f8f751a8c357350800000000000000
-      internalID: 6013779441187000079
+      spriteID: b34e69a3904974390800000000000000
+      internalID: -7834130259429104581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_81
+      name: Sprite_Drone_81
       rect:
         serializedVersion: 2
         x: 48
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2326,18 +2140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b4fdd713320bbf0800000000000000
-      internalID: -310709678816408754
+      spriteID: e0ceb5038f5fe8250800000000000000
+      internalID: 5948962604115029006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_82
+      name: Sprite_Drone_82
       rect:
         serializedVersion: 2
         x: 96
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2347,18 +2161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 618b1f6484e8d7ab0800000000000000
-      internalID: -5008690769487087594
+      spriteID: 32a75ad24c7f7cef0800000000000000
+      internalID: -87829245758965213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_83
+      name: Sprite_Drone_83
       rect:
         serializedVersion: 2
         x: 144
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2368,18 +2182,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c99d916a3907d80800000000000000
-      internalID: -8254935775362573239
+      spriteID: 82cec4db39920f5f0800000000000000
+      internalID: -725033825493783512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_84
+      name: Sprite_Drone_84
       rect:
         serializedVersion: 2
         x: 192
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2389,18 +2203,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b47f5c8c51fcc8120800000000000000
-      internalID: 2417534792460793675
+      spriteID: 5b46bb77fd001d4d0800000000000000
+      internalID: -3111704907749825355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_85
+      name: Sprite_Drone_85
       rect:
         serializedVersion: 2
         x: 240
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2410,18 +2224,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 186a2af95d0875630800000000000000
-      internalID: 3915740056016561793
+      spriteID: 5a74847e95b0aa180800000000000000
+      internalID: -9103451216015767643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_86
+      name: Sprite_Drone_86
       rect:
         serializedVersion: 2
         x: 288
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2431,18 +2245,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d8b0413541f6e500800000000000000
-      internalID: 425292494314453208
+      spriteID: 1b29e08be566ecc60800000000000000
+      internalID: 7840316558299534001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_87
+      name: Sprite_Drone_87
       rect:
         serializedVersion: 2
         x: 336
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2452,18 +2266,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa73847536e866350800000000000000
-      internalID: 6009647310089762735
+      spriteID: 5cab8a19bf7844060800000000000000
+      internalID: 6936818840607701701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_88
+      name: Sprite_Drone_88
       rect:
         serializedVersion: 2
         x: 384
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2473,18 +2287,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4794966b5301d0700800000000000000
-      internalID: 508080155842398580
+      spriteID: 4ecb9bf24a3d63920800000000000000
+      internalID: 2969793706426219748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_89
+      name: Sprite_Drone_89
       rect:
         serializedVersion: 2
         x: 432
-        y: 68
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -2494,18 +2308,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 811c86c4423361d70800000000000000
-      internalID: 9013447935222399256
+      spriteID: fe2002b65623a3840800000000000000
+      internalID: 5204527730550375151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_90
+      name: Sprite_Drone_90
       rect:
         serializedVersion: 2
         x: 0
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2515,18 +2329,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7db319fce385c550800000000000000
-      internalID: 6180491117450214781
+      spriteID: 7d0e38df1b3549fb0800000000000000
+      internalID: -4641993291984543529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_91
+      name: Sprite_Drone_91
       rect:
         serializedVersion: 2
         x: 48
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2536,18 +2350,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410010a457bcb0a10800000000000000
-      internalID: 1876817374343135252
+      spriteID: b9e29430c20356730800000000000000
+      internalID: 3991649610325634715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_92
+      name: Sprite_Drone_92
       rect:
         serializedVersion: 2
         x: 96
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2557,18 +2371,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb46a4dc77760ed0800000000000000
-      internalID: -2448137969401967642
+      spriteID: 14ef87e793e492290800000000000000
+      internalID: -7914708861284975039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_93
+      name: Sprite_Drone_93
       rect:
         serializedVersion: 2
         x: 144
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2578,18 +2392,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18ffc3aaa716c1e40800000000000000
-      internalID: 5628480813776306049
+      spriteID: a7c697b9a8dd24100800000000000000
+      internalID: 90878529884482682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_94
+      name: Sprite_Drone_94
       rect:
         serializedVersion: 2
         x: 192
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2599,18 +2413,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b086d464006f96170800000000000000
-      internalID: 8172333479880386571
+      spriteID: fc291ae62239ce400800000000000000
+      internalID: 354820246749680335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_95
+      name: Sprite_Drone_95
       rect:
         serializedVersion: 2
         x: 240
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2620,18 +2434,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d15a3fa4a60e9c980800000000000000
-      internalID: -8518030473065945827
+      spriteID: eee1366e859be6bb0800000000000000
+      internalID: -4940807949705339154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_96
+      name: Sprite_Drone_96
       rect:
         serializedVersion: 2
         x: 288
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2641,18 +2455,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9cc414781ad77ae0800000000000000
-      internalID: -1551531748044256102
+      spriteID: 3780cdb8584878850800000000000000
+      internalID: 6379213106305566835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_97
+      name: Sprite_Drone_97
       rect:
         serializedVersion: 2
         x: 336
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2662,18 +2476,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb6d7e20cadc6e80800000000000000
-      internalID: -8183925903890486332
+      spriteID: 4ea90c88193f3e590800000000000000
+      internalID: -7645999935954838812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_98
+      name: Sprite_Drone_98
       rect:
         serializedVersion: 2
         x: 384
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2683,18 +2497,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0e8d089a4842b00800000000000000
-      internalID: 802912497124827299
+      spriteID: a68486acd7367bb60800000000000000
+      internalID: 7761781874714232938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Npc0002_99
+      name: Sprite_Drone_99
       rect:
         serializedVersion: 2
         x: 432
-        y: 20
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -2704,8 +2518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 378c5b14c5c640100800000000000000
-      internalID: 73302637439993971
+      spriteID: 0b1490b83d25fa2f0800000000000000
+      internalID: -959457127082409552
       vertices: []
       indices: 
       edges: []
