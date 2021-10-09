@@ -48,5 +48,4 @@ public class DialogPoint : MonoBehaviour
                 Destroy(talkSprite);
         }
     }
-
 }

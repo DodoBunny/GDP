@@ -38,4 +38,10 @@ public class DialogManager
             Managers.Game.player.GetComponent<PlayerController>().canMove = true;
         }
     }
+
+    public void DialogInactive()
+    {
+        NPCPanel.SetActive(false);
+        Managers.Game.player.GetComponent<PlayerController>().canMove = true;
+    }
 }

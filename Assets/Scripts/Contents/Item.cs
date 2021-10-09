@@ -18,4 +18,14 @@ public class Item : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Managers.Sound.Play(soundType);
+            Managers.Game.score += score;
+            Destroy(gameObject);
+        }
+    }
 }

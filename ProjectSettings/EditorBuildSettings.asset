@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: 0180833dacfbd7942b845fd007f6a253
   - enabled: 1
-    path: Assets/Scenes/Dodobird/Stage 1 - 1(Dodobird).unity
-    guid: f98a066e12ee8ad469ec8885e3ae621d
+    path: Assets/Scenes/Stage 1 - 1.unity
+    guid: 6c43b6d6efc44b445a49f77903d78ecb
   - enabled: 1
-    path: Assets/Scenes/Dodobird/Stage 1 - 2(Dodobird).unity
-    guid: b4e01af0005ad9346947e6cef3437247
+    path: Assets/Scenes/Stage 1 - 2.unity
+    guid: bea632290cfda5546b921ebd58f03bae
   m_configObjects: {}

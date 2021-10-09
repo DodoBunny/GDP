@@ -13,7 +13,7 @@ public class LobbyScene : MonoBehaviour
 
     public void GameStart()
     {
-        SceneManager.LoadScene("Stage 1 - 1(Dodobird)");
+        SceneManager.LoadScene("Stage 1 - 1");
     }
     public void GameExit()
     {
