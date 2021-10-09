@@ -30,7 +30,7 @@ public class DialogManager
     }
     public void DialogExit()
     {
-        if (DelayTime < 0.1f)
+        if (DelayTime < 0.5f)
             return;
 
         if (Input.GetButtonDown("Interaction")){

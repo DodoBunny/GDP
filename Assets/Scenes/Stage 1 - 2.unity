@@ -3413,7 +3413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 722914010309074313, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
       propertyPath: m_Text
-      value: "\uB05D"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 722914010488572530, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
       propertyPath: m_IsActive
@@ -4006,7 +4006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 163.5, y: 40, z: -10}
+  m_LocalPosition: {x: 169.23, y: 35.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
