@@ -82940,9 +82940,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2315344439432621425, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650303384874267579, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8461806011760297082, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461806011760297082, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
