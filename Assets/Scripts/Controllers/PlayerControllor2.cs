@@ -11,8 +11,14 @@ public class PlayerControllor2 : MonoBehaviour
     AudioSource _audio; // 점프 효과음
 
     public bool canMove = true;
+    public bool canAttack = false;
+
+    public GameObject Bullet;
 
     public float moveSpeed = 10f;
+
+    float DelayTime;
+    public float AttackSpeed = 0.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +33,10 @@ public class PlayerControllor2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        DelayTime += Time.deltaTime;
         SetAnim();
+        if (canAttack)
+            Attack();
     }
     private void FixedUpdate()
     {
@@ -78,5 +87,18 @@ public class PlayerControllor2 : MonoBehaviour
         }
     }
 
+    void Attack()
+    {
+        if (Input.GetKey(KeyCode.Z))
+        {
+            if (DelayTime > AttackSpeed)
+            {
+                float x = _sprite.flipX ? -0.5f : 0.5f;
+                GameObject bullet = Instantiate(Bullet, transform.position + new Vector3(x, 0, 0), Quaternion.identity);
+                bullet.GetComponent<WaterBullet>().flip = _sprite.flipX;
+                DelayTime = 0f;
+            }
+        }
+    }
 
 }
