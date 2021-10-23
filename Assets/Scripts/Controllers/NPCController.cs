@@ -7,9 +7,13 @@ public class NPCController : MonoBehaviour
     Animator _anim;
     SpriteRenderer _sprite;
     RaycastHit2D hit;
+    public GameObject Bullet;
 
-    public float sight = 6f;
+    public float sight = 8f;
     public float speed = 3f;
+
+    public bool randomAttack = false;
+    public bool isFollow = false;
 
     bool targetLock = false;
     Vector3 patrolDir;
@@ -26,19 +30,28 @@ public class NPCController : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
-        InvokeRepeating("RandomPos", 0, Random.Range(3f, 7f));
+        InvokeRepeating("RandomPos", 0, Random.Range(1f, 5f));
     }
 
     // Update is called once per frame
     void Update()
     {
+        DelayTime += Time.deltaTime;
+
+        if(DelayTime > Random.Range(1f, 2f) && randomAttack)
+        {
+            Attack();
+        }
+
         Ray();
         if (!targetLock)
         {
             if (Mathf.Abs((Managers.Game.player.transform.position - transform.position).magnitude) < sight)
             {
                 if (hit.collider == null)
-                    state = State.Follow;
+                {
+                    state = isFollow ? State.Follow : State.Patrol;
+                }
                 else
                     state = State.Attack;
             }
@@ -77,18 +90,17 @@ public class NPCController : MonoBehaviour
                 break;
             case State.Attack:
                 _anim.SetBool("IsMove", false);
+                Attack();
                 break;
         }
-
-
     }
 
     void Ray()
     {
-        Vector3 Dir = transform.position.x > Managers.Game.player.transform.position.x ? Vector3.left : Vector3.right;
+        Vector3 Dir = _sprite.flipX ? Vector3.left : Vector3.right;
 
-        Debug.DrawRay(transform.position, Dir);
-        hit = Physics2D.Raycast(transform.position, Dir, 6f, LayerMask.GetMask("Player"));
+        Debug.DrawRay(transform.position, Dir * sight);
+        hit = Physics2D.Raycast(transform.position, Dir, sight, LayerMask.GetMask("Player"));
     }
 
     void RandomPos()
@@ -97,4 +109,17 @@ public class NPCController : MonoBehaviour
         patrolDir = dir;
     }
 
+    float DelayTime;
+    public float AttackSpeed = 0.3f;
+    void Attack()
+    {
+        if (DelayTime > AttackSpeed)
+        {
+            float x = _sprite.flipX ? -0.5f : 0.5f;
+            GameObject bullet = Instantiate(Bullet, transform.position + new Vector3(x, 0, 0), Quaternion.identity);
+            bullet.GetComponent<WaterBullet>().flip = _sprite.flipX; 
+            bullet.GetComponent<WaterBullet>().isEnemy = true;
+            DelayTime = 0f;
+        }
+    }
 }

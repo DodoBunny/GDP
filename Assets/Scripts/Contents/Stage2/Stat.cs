@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Stat : MonoBehaviour
 {
-    public int maxHp = 3;
-    public int Hp;
+    public int maxHp = 100;
+    public int Hp = 100;
 
     // Start is called before the first frame update
     void Awake()
