@@ -15,25 +15,27 @@ public class DialogManager
     {
         NPCPanel.SetActive(true);
         NPCText.text = text;
-        if(NPC != null)
+        if (NPC != null)
         {
             NPCSprite.sprite = NPC;
         }
-        if(canMove == false)
+        if (canMove == false)
             Managers.Game.player.GetComponent<PlayerController>().canMove = false;
         DelayTime = 0f;
     }
     public void OnUpdate()
     {
         DelayTime += Time.deltaTime;
-        DialogExit();
+        if (NPCPanel != null)
+            DialogExit();
     }
     public void DialogExit()
     {
         if (DelayTime < 0.5f)
             return;
 
-        if (Input.GetButtonDown("Interaction")){
+        if (Input.GetButtonDown("Interaction"))
+        {
             NPCPanel.SetActive(false);
             Managers.Game.player.GetComponent<PlayerController>().canMove = true;
         }

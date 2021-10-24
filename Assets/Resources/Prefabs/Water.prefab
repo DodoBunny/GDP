@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3184389967445909028}
   - component: {fileID: 1786147557}
   - component: {fileID: 3507749595835361217}
+  - component: {fileID: 1990887177820116860}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -193,3 +194,15 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &1990887177820116860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184389967445909027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c957a42d5f104c73a1b020724328eed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

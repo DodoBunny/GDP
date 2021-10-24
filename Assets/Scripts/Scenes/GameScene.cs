@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameScene : MonoBehaviour
 {
+    public Define.Stage stage = Define.Stage.stage1;
+
     public Image fadeinImg;
     public Text fadeinText;
 
@@ -16,14 +18,34 @@ public class GameScene : MonoBehaviour
     public Image NPC_Sprite;
 
 
+    //Scene2
+    public Text TimeText;
+    public Text NPCCountText;
+
+
     private void Awake()
     {
-        Managers.Game.scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
         Managers.Game.player = GameObject.Find("Player");
+        switch (stage)
+        {
+            case Define.Stage.stage1:
+                Managers.Game.scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
+                Managers.Dialog.NPCPanel = NPC_UI;
+                Managers.Dialog.NPCText = NPC_Text;
+                Managers.Dialog.NPCSprite = NPC_Sprite;
+                break;
+            case Define.Stage.stage2:
+                Managers.Game.stage = this.stage;
+                break;
+            case Define.Stage.stage3:
+                break;
+            case Define.Stage.stage4:
+                break;
 
-        Managers.Dialog.NPCPanel = NPC_UI;
-        Managers.Dialog.NPCText = NPC_Text;
-        Managers.Dialog.NPCSprite = NPC_Sprite;
+        }
+
+
+
 
 
         StartCoroutine(FadeOut());
