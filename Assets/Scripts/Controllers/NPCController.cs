@@ -58,7 +58,11 @@ public class NPCController : MonoBehaviour
             }
 
             if (GetComponent<Stat>().Hp <= 0)
+            {
                 state = State.Die;
+                Managers.Game.NPCcount++;
+                GetComponent<AudioSource>().Play();
+            }
         }
 
         switch (state)
@@ -122,6 +126,8 @@ public class NPCController : MonoBehaviour
     public float AttackSpeed = 0.3f;
     void Attack()
     {
+        if (Managers.Game.player.GetComponent<PlayerControllor2>().isDead)
+            return;
         if (DelayTime > AttackSpeed)
         {
             float x = _sprite.flipX ? -0.5f : 0.5f;
@@ -130,5 +136,9 @@ public class NPCController : MonoBehaviour
             bullet.GetComponent<WaterBullet>().isEnemy = true;
             DelayTime = 0f;
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        patrolDir = -patrolDir;
     }
 }

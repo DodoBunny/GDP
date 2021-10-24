@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HpBar : MonoBehaviour
 {
+    public bool isPlayer = false;
     public GameObject character;
     Stat stat;
     Slider slider;
@@ -18,7 +19,7 @@ public class HpBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (stat.Hp == 0)
+        if (stat.Hp <= 0 && !isPlayer)
             Destroy(gameObject);
 
         slider.value = stat.Hp / (float)stat.maxHp;

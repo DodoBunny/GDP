@@ -10,7 +10,6 @@ public class PlayerControllor2 : MonoBehaviour
     SpriteRenderer _sprite;
     AudioSource _audio; // 점프 효과음
 
-    public bool canMove = true;
     public bool canAttack = false;
 
     public GameObject Bullet;
@@ -19,6 +18,7 @@ public class PlayerControllor2 : MonoBehaviour
 
     float DelayTime;
     public float AttackSpeed = 0.3f;
+    public bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,9 +33,16 @@ public class PlayerControllor2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GetComponent<Stat>().Hp <= 0)
+        {
+            _anim.SetTrigger("Die");
+            isDead = true;
+        }
+
+
         DelayTime += Time.deltaTime;
         SetAnim();
-        if (canAttack)
+        if (!isDead)
             Attack();
     }
     private void FixedUpdate()
@@ -45,7 +52,7 @@ public class PlayerControllor2 : MonoBehaviour
 
     void Move()
     {
-        if (canMove)
+        if (!isDead)
         {
             float moveX = Managers.Input.horizontal;
             float moveY = Managers.Input.vertical;
@@ -57,7 +64,7 @@ public class PlayerControllor2 : MonoBehaviour
 
     void SetAnim()
     {
-        if (canMove)
+        if (!isDead)
         {
             if (Managers.Input.vertical != 0)
                 _anim.SetBool("IsMove", true);

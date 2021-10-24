@@ -25,6 +25,7 @@ public class GameScene : MonoBehaviour
 
     private void Awake()
     {
+        Managers.Game.stage = this.stage;
         Managers.Game.player = GameObject.Find("Player");
         switch (stage)
         {
@@ -35,7 +36,8 @@ public class GameScene : MonoBehaviour
                 Managers.Dialog.NPCSprite = NPC_Sprite;
                 break;
             case Define.Stage.stage2:
-                Managers.Game.stage = this.stage;
+                Managers.Game.TimeText = this.TimeText;
+                Managers.Game.NPCCountText = this.NPCCountText;
                 break;
             case Define.Stage.stage3:
                 break;
@@ -43,13 +45,9 @@ public class GameScene : MonoBehaviour
                 break;
 
         }
-
-
-
-
-
         StartCoroutine(FadeOut());
     }
+
 
     public void StartFadeIn()
     {
