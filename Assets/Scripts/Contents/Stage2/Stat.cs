@@ -16,10 +16,7 @@ public class Stat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Hp <= 0)
-        {
-            Destroy(gameObject);
-        }
+
     }
 
     public void OnDamaged()

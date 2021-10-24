@@ -18,6 +18,9 @@ public class HpBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (stat.Hp == 0)
+            Destroy(gameObject);
+
         slider.value = stat.Hp / (float)stat.maxHp;
     }
 }

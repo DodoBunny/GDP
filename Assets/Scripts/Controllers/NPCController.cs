@@ -21,7 +21,8 @@ public class NPCController : MonoBehaviour
     {
         Patrol,
         Follow,
-        Attack
+        Attack,
+        Die
     }
     State state = State.Patrol;
 
@@ -38,13 +39,9 @@ public class NPCController : MonoBehaviour
     {
         DelayTime += Time.deltaTime;
 
-        if(DelayTime > Random.Range(1f, 2f) && randomAttack)
-        {
-            Attack();
-        }
-
         Ray();
-        if (!targetLock)
+
+        if (state != State.Die)
         {
             if (Mathf.Abs((Managers.Game.player.transform.position - transform.position).magnitude) < sight)
             {
@@ -59,6 +56,9 @@ public class NPCController : MonoBehaviour
             {
                 state = State.Patrol;
             }
+
+            if (GetComponent<Stat>().Hp <= 0)
+                state = State.Die;
         }
 
         switch (state)
@@ -74,6 +74,11 @@ public class NPCController : MonoBehaviour
                     _sprite.flipX = false;
                 }
                 transform.position += patrolDir * speed * Time.deltaTime;
+
+                if (DelayTime > Random.Range(1f, 2f) && randomAttack)
+                {
+                    Attack();
+                }
                 break;
             case State.Follow:
                 _anim.SetBool("IsMove", true);
@@ -91,6 +96,10 @@ public class NPCController : MonoBehaviour
             case State.Attack:
                 _anim.SetBool("IsMove", false);
                 Attack();
+                break;
+            case State.Die:
+                _anim.SetTrigger("Die");
+                GetComponent<CapsuleCollider2D>().enabled = false;
                 break;
         }
     }
@@ -117,7 +126,7 @@ public class NPCController : MonoBehaviour
         {
             float x = _sprite.flipX ? -0.5f : 0.5f;
             GameObject bullet = Instantiate(Bullet, transform.position + new Vector3(x, 0, 0), Quaternion.identity);
-            bullet.GetComponent<WaterBullet>().flip = _sprite.flipX; 
+            bullet.GetComponent<WaterBullet>().flip = _sprite.flipX;
             bullet.GetComponent<WaterBullet>().isEnemy = true;
             DelayTime = 0f;
         }
