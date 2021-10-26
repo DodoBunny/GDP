@@ -26,6 +26,11 @@ public class NPCController : MonoBehaviour
     }
     State state = State.Patrol;
 
+    private void Awake()
+    {
+        Managers.Game.NPCs++;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,6 +66,7 @@ public class NPCController : MonoBehaviour
             {
                 state = State.Die;
                 Managers.Game.NPCcount++;
+                Managers.Game.NPCs--;
                 GetComponent<AudioSource>().Play();
             }
         }

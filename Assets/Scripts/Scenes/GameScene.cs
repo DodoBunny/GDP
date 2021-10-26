@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameScene : MonoBehaviour
@@ -21,6 +22,7 @@ public class GameScene : MonoBehaviour
     //Scene2
     public Text TimeText;
     public Text NPCCountText;
+    public bool timeOut = false;
 
 
     private void Awake()
@@ -46,6 +48,29 @@ public class GameScene : MonoBehaviour
 
         }
         StartCoroutine(FadeOut());
+    }
+
+    private void Update()
+    {
+        switch (stage)
+        {
+            case Define.Stage.stage1:
+                break;
+            case Define.Stage.stage2:
+                if (Managers.Game.time <= 0 && !timeOut)
+                {
+                    Managers.Game.score += Managers.Game.NPCcount * 10;
+                    StartFadeIn();
+                    timeOut = true;
+                    Invoke("Scene2Clear", 4f);
+                }
+                break;
+            case Define.Stage.stage3:
+                break;
+            case Define.Stage.stage4:
+                break;
+
+        }
     }
 
 
@@ -78,6 +103,11 @@ public class GameScene : MonoBehaviour
             fadeoutText.color = new Color(255, 255, 255, fadeCount);
         }
         Destroy(fadeoutImg.gameObject);
+    }
+
+    void Scene2Clear()
+    {
+        SceneManager.LoadScene("Stage 3");
     }
 
 

@@ -17,6 +17,7 @@ public class GameManager
     public int NPCcount = 0;
     public Text TimeText;
     public Text NPCCountText;
+    public int NPCs = 0;
 
 
     public int score = 0;
@@ -28,7 +29,8 @@ public class GameManager
 
     public void OnUpdate()
     {
-        time -= Time.deltaTime;
+        if (time > 0)
+            time -= Time.deltaTime;
         switch (stage)
         {
             case Define.Stage.stage1:

@@ -33,10 +33,11 @@ public class PlayerControllor2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GetComponent<Stat>().Hp <= 0)
+        if (GetComponent<Stat>().Hp <= 0 && !isDead)
         {
-            _anim.SetTrigger("Die");
+            _anim.SetBool("Die", true);
             isDead = true;
+            Invoke("PlayerReset", 3f);
         }
 
 
@@ -107,5 +108,12 @@ public class PlayerControllor2 : MonoBehaviour
             }
         }
     }
-
+    void PlayerReset()
+    {
+        Stat stat = GetComponent<Stat>();
+        stat.Hp = stat.maxHp;
+        isDead = false;
+        _anim.SetBool("Die", false);
+        transform.position = new Vector3(-7.5f, 22f, 0f);
+    }
 }
