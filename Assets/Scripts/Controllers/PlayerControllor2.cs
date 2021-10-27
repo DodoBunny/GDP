@@ -43,7 +43,7 @@ public class PlayerControllor2 : MonoBehaviour
 
         DelayTime += Time.deltaTime;
         SetAnim();
-        if (!isDead)
+        if (!isDead && canAttack)
             Attack();
     }
     private void FixedUpdate()

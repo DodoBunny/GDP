@@ -2503,6 +2503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5a2a4ab56bf724faae15359b0ee526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stage: 0
   fadeinImg: {fileID: 954007301}
   fadeinText: {fileID: 954007300}
   fadeoutImg: {fileID: 954007303}
@@ -2510,6 +2511,9 @@ MonoBehaviour:
   NPC_UI: {fileID: 954007306}
   NPC_Text: {fileID: 954007304}
   NPC_Sprite: {fileID: 954007305}
+  TimeText: {fileID: 0}
+  NPCCountText: {fileID: 0}
+  timeOut: 0
 --- !u!4 &370725178
 Transform:
   m_ObjectHideFlags: 0
@@ -31051,7 +31055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5040850316340217117, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5443779817091267557, guid: 4f44c3ec3233d9d4397922b0fc0acbb5, type: 3}
       propertyPath: m_AnchorMin.x
@@ -32285,7 +32289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 1
-  moveSpeed: 20
+  moveSpeed: 25
   jumpPower: 15
   maxSpeed: 5
   isGrounded: 0
