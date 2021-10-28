@@ -57,12 +57,12 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
             case BTNTpye.Sound:
                 if(isSound)
                 {
-                    Debug.Log("사운드 OFF");
+                    Debug.Log("사운드 ON");
                     text.text = "사운드 OFF";
                 }
                 else
                 {
-                    Debug.Log("사운드 ON");
+                    Debug.Log("사운드 OFF");
                     text.text = "사운드 ON";
                 }
 
