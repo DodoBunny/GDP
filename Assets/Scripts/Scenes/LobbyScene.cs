@@ -55,7 +55,6 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
                 break;
 
             case BTNTpye.Sound:
-                Debug.Log("사운드");
                 if(isSound)
                 {
                     Debug.Log("사운드 OFF");
