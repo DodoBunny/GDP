@@ -22,4 +22,12 @@ public class Define
         stage3,
         stage4
     }
+
+    public enum Food
+    {
+        Empty,
+        Beer,
+        Chicken,
+        Soju
+    }
 }

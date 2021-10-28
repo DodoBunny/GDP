@@ -12,7 +12,12 @@ public class PlayerControllor3 : MonoBehaviour
 
     public float moveSpeed = 10f;
 
+    public GameObject itemUI;
+
     float DelayTime = 0f;
+
+    RaycastHit2D foodHit;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +31,11 @@ public class PlayerControllor3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         DelayTime += Time.deltaTime;
+        Ray();
         SetAnim();
+        if (Input.GetButtonDown("Interaction"))
+            Action();
     }
     private void FixedUpdate()
     {
@@ -65,6 +72,24 @@ public class PlayerControllor3 : MonoBehaviour
         else
         {
             _anim.SetBool("IsMove", false);
+        }
+    }
+
+    void Ray()
+    {
+        Vector3 Dir = _sprite.flipX ? Vector3.left : Vector3.right;
+
+        Debug.DrawRay(transform.position, Dir * 2f, Color.red, 0.1f);
+        foodHit = Physics2D.Raycast(transform.position, Dir, 2f, LayerMask.GetMask("Food"));
+    }
+
+    void Action()
+    {
+        Debug.Log("액션실행");
+        if (foodHit.collider != null)
+        {
+            Define.Food food = foodHit.transform.GetComponent<FoodSpawn>().food;
+            itemUI.GetComponent<FoodInven>().Add(food);
         }
     }
 }

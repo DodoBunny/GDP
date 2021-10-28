@@ -15,7 +15,6 @@ public class NPCController : MonoBehaviour
     public bool randomAttack = false;
     public bool isFollow = false;
 
-    bool targetLock = false;
     Vector3 patrolDir;
     enum State
     {
