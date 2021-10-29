@@ -27,6 +27,11 @@ public class PlayerController : MonoBehaviour
     public Transform chkPos;
     public float checkRadius;
 
+    // Mobile Key Var
+    public int left_Value;
+    public int right_Value;
+
+
     private void Awake()
     {
         _collider = GetComponent<CapsuleCollider2D>();
@@ -41,9 +46,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      Jump();
-      SetAnim();
-      GroundChk();
+        Jump();
+        SetAnim();
+        GroundChk();
 
     }
 
@@ -54,9 +59,11 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        
+
         if (canMove)
         {
-            _rigid.AddForce(Vector2.right * Managers.Input.horizontal * moveSpeed, ForceMode2D.Impulse);
+            _rigid.AddForce(Vector2.right * (Managers.Input.horizontal + right_Value + left_Value) * moveSpeed, ForceMode2D.Impulse);
 
             if (_rigid.velocity.x > maxSpeed)
                 _rigid.velocity = new Vector2(maxSpeed, _rigid.velocity.y);
@@ -70,7 +77,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!isGrounded || !canMove)
             return;
-
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
@@ -80,16 +87,28 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void mJump()
+    {
+        if (!isGrounded || !canMove)
+            return;
+
+        _rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        _audio.Play(); // 점프 효과음 재생
+        _anim.SetTrigger("Jump");
+        
+
+    }
+
     void SetAnim()
     {
         if (canMove)
         {
-            if (Managers.Input.horizontal < 0)
+            if (Managers.Input.horizontal < 0 || left_Value == -1)
             {
                 _anim.SetBool("IsMove", true);
                 _sprite.flipX = true;
             }
-            else if (Managers.Input.horizontal > 0)
+            else if (Managers.Input.horizontal > 0 || right_Value == 1)
             {
                 _anim.SetBool("IsMove", true);
                 _sprite.flipX = false;
@@ -116,4 +135,39 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(chkPos.position, checkRadius, groundMask);
 
     }
+
+    public void OnMouseDownAsButton(string type)
+    {
+        switch (type)
+        {
+            case "L":
+                left_Value = -1;
+                //left_Down = true;
+                break;
+            case "R":
+                right_Value = 1;
+                //right_Down = true;
+                break;
+
+        }
+
+    }
+
+
+    public void OnMouseUpAsButton(string type)
+    {
+        switch (type)
+        {
+            case "L":
+                left_Value = 0;
+                //left_Down = true;
+                break;
+            case "R":
+                right_Value = 0;
+                //right_Up = true;
+                break;
+
+        }
+    }
+
 }
