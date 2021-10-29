@@ -77,6 +77,18 @@ public class FoodInven : MonoBehaviour
         }
     }
 
+    public void Delete(Define.Food food)
+    {
+        for (int i = 0; i < inven.Length; i++)
+        {
+            if (inven[i] == food)
+            {
+                inven[i] = Define.Food.Empty;
+                Destroy(items[i]);
+                break;
+            }
+        }
+    }
     public void DeleteAll()
     {
         for (int i = 0; i < inven.Length; i++)
