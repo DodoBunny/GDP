@@ -49,9 +49,24 @@ public class Table : MonoBehaviour
                     Wait();
                     onWait = true;
                 }
+                else
+                {
+                    for (int i = 0; i < order.inven.Length; i++)
+                    {
+                        if (order.inven[i] != Define.Food.Empty)
+                            break;
+                        state = State.Eat;
+                    }
+                }
                 break;
             case State.Eat:
                 sprite.sprite = eat;
+                if (!onEat)
+                {
+                    onEat = true;
+                    Managers.Game.score += 10;
+                    Invoke("Reset", Random.Range(5f, 8f));
+                }
                 break;
         }
     }
@@ -65,7 +80,7 @@ public class Table : MonoBehaviour
     public bool onWait = false;
     void Wait()
     {
-        for (int i = 0; i < Random.Range(1, 6); i++)
+        for (int i = 0; i < Random.Range(1, 4); i++)
         {
             int randint = Random.Range(0, 3);
             switch (randint)
@@ -82,7 +97,13 @@ public class Table : MonoBehaviour
             }
         }
     }
-
-
+    bool onEat = false;
+    void Reset()
+    {
+        onEmpty = false;
+        onWait = false;
+        onEat = false;
+        state = State.Empty;
+    }
 
 }

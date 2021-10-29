@@ -42,12 +42,15 @@ public class GameScene : MonoBehaviour
                 Managers.Game.NPCCountText = this.NPCCountText;
                 break;
             case Define.Stage.stage3:
+                Managers.Game.TimeText = this.TimeText;
                 break;
             case Define.Stage.stage4:
                 break;
 
         }
         StartCoroutine(FadeOut());
+        timeOut = false;
+        Managers.Game.time = 60f;
     }
 
     private void Update()
@@ -66,6 +69,12 @@ public class GameScene : MonoBehaviour
                 }
                 break;
             case Define.Stage.stage3:
+                if (Managers.Game.time <= 0 && !timeOut)
+                {
+                    StartFadeIn();
+                    timeOut = true;
+                    Invoke("Scene3Clear", 4f);
+                }
                 break;
             case Define.Stage.stage4:
                 break;
@@ -109,6 +118,9 @@ public class GameScene : MonoBehaviour
     {
         SceneManager.LoadScene("Stage 3");
     }
-
+    void Scene3Clear()
+    {
+        SceneManager.LoadScene("Stage 4");
+    }
 
 }
