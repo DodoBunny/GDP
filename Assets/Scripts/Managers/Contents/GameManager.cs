@@ -42,6 +42,9 @@ public class GameManager
                 NPCCountText.text = NPCcount + "명";
                 break;
             case Define.Stage.stage3:
+                if (time > 0)
+                    time -= Time.deltaTime;
+                TimeText.text = "남은 시간 : " + time.ToString("F1");
                 break;
             case Define.Stage.stage4:
                 break;
