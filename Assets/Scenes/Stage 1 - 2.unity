@@ -32297,6 +32297,8 @@ MonoBehaviour:
   angle: 0
   chkPos: {fileID: 2111743549}
   checkRadius: 0.35
+  left_Value: 0
+  right_Value: 0
 --- !u!4 &1113206567
 Transform:
   m_ObjectHideFlags: 0
@@ -33176,7 +33178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bcc478a357b1e64789b1ce174bbaf5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Lobby
+  targetScene: Stage 2
 --- !u!61 &1294178742
 BoxCollider2D:
   m_ObjectHideFlags: 0

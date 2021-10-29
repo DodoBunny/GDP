@@ -29,8 +29,6 @@ public class GameManager
 
     public void OnUpdate()
     {
-        if (time > 0)
-            time -= Time.deltaTime;
         switch (stage)
         {
             case Define.Stage.stage1:
@@ -38,6 +36,8 @@ public class GameManager
                     scoreText.text = "Score : " + score;
                 break;
             case Define.Stage.stage2:
+                if (time > 0)
+                    time -= Time.deltaTime;
                 TimeText.text = "남은 시간 : " + time.ToString("F1");
                 NPCCountText.text = NPCcount + "명";
                 break;
