@@ -11,7 +11,7 @@ public class Table : MonoBehaviour
     public Sprite eat;
 
     SpriteRenderer sprite;
-    Order order;
+    public Order order;
 
 
     public enum State
@@ -38,7 +38,7 @@ public class Table : MonoBehaviour
                 sprite.sprite = empty;
                 if (!onEmpty)
                 {
-                    Invoke("Empty", Random.Range(0f, 5f));
+                    Invoke("Empty", Random.Range(0f, 8f));
                     onEmpty = true;
                 }
                 break;
@@ -62,10 +62,10 @@ public class Table : MonoBehaviour
         state = State.Wait;
     }
 
-    bool onWait = false;
+    public bool onWait = false;
     void Wait()
     {
-        for (int i = 0; i < Random.Range(4, 8); i++)
+        for (int i = 0; i < Random.Range(1, 6); i++)
         {
             int randint = Random.Range(0, 3);
             switch (randint)
@@ -82,4 +82,7 @@ public class Table : MonoBehaviour
             }
         }
     }
+
+
+
 }

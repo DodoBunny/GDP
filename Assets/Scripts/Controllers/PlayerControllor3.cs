@@ -17,6 +17,7 @@ public class PlayerControllor3 : MonoBehaviour
     float DelayTime = 0f;
 
     RaycastHit2D foodHit;
+    RaycastHit2D tableHit;
 
     // Start is called before the first frame update
     void Start()
@@ -80,16 +81,38 @@ public class PlayerControllor3 : MonoBehaviour
         Vector3 Dir = _sprite.flipX ? Vector3.left : Vector3.right;
 
         Debug.DrawRay(transform.position, Dir * 2f, Color.red, 0.1f);
-        foodHit = Physics2D.Raycast(transform.position, Dir, 2f, LayerMask.GetMask("Food"));
+        foodHit = Physics2D.Raycast(transform.position, Dir, 1.5f, LayerMask.GetMask("Food"));
+        tableHit = Physics2D.Raycast(transform.position, Dir, 1.5f, LayerMask.GetMask("Table"));
     }
 
     void Action()
     {
-        Debug.Log("액션실행");
         if (foodHit.collider != null)
         {
             Define.Food food = foodHit.transform.GetComponent<FoodSpawn>().food;
             itemUI.GetComponent<FoodInven>().Add(food);
+        }
+        else if (tableHit.collider != null)
+        {
+            Table table = tableHit.transform.GetComponent<Table>();
+            Order order = table.order;
+            FoodInven inven = itemUI.GetComponent<FoodInven>();
+            if (table.onWait)
+            {
+                for (int i = 0; i < inven.inven.Length; i++)
+                {
+                    if (inven.inven[i] == Define.Food.Empty)
+                        continue;
+                    for (int j = 0; j < order.inven.Length; j++)
+                    {
+                        if (inven.inven[i] == order.inven[j])
+                        {
+                            inven.Delete(inven.inven[i]);
+                            order.Delete(order.inven[j]);
+                        }
+                    }
+                }
+            }
         }
     }
 }
