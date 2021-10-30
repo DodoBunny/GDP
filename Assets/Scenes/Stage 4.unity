@@ -8056,7 +8056,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4702149470208631465, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_Name
-      value: PSU_NPC (2)
+      value: LSM_NPC
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8642,7 +8642,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4702149470208631465, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_Name
-      value: PSU_NPC (1)
+      value: GJY_NPC
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53860,11 +53860,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -159.85
+      value: -21.27
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.28
+      value: 8.731
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.z
@@ -53916,9 +53916,8 @@ PrefabInstance:
       objectReference: {fileID: -4832047835947625216, guid: 9f2e5505029c7744683b7a1f6570a3ef, type: 3}
     - target: {fileID: 4702149470208631471, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: text
-      value: "\uC878\uC5C5\uC2DD? \uC9C0\uAE08\uCBE4\uC774\uBA74 \uC544\uB9C8 \uAC00\uCC9C\uAD00\uC5D0\uC11C
-        \uC9C4\uD589\uC911\uC77C\uAC70\uC57C. \uACE7 \uB05D\uB098\uAC08\uAC70 \uAC19\uC740\uB370
-        \uC870\uAE08 \uC11C\uB458\uB7EC\uC57C\uACA0\uB294\uAC78?"
+      value: "\uACC4\uC808\uD559\uAE30\uB3C4 \uB4E4\uC744 \uC0DD\uAC01\uD558\uB2C8
+        \uBC8C\uC368 \uC5B4\uC9C8\uC5B4\uC9C8\uD558\uB124"
       objectReference: {fileID: 0}
     - target: {fileID: 4702149471145411966, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.y
@@ -58497,15 +58496,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4702149470208631465, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_Name
-      value: PSU_NPC (3)
+      value: NOC_NPC
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.28
+      value: -160.375
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.73
+      value: -11.28
       objectReference: {fileID: 0}
     - target: {fileID: 4702149470208631469, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.z
@@ -58557,7 +58556,9 @@ PrefabInstance:
       objectReference: {fileID: 829687371736507959, guid: 9f2e5505029c7744683b7a1f6570a3ef, type: 3}
     - target: {fileID: 4702149470208631471, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: text
-      value: "\uB4DC\uB514\uC5B4 \uC878\uC5C5\uC774\uB2E4!"
+      value: "\uC878\uC5C5\uC2DD? \uC9C0\uAE08\uCBE4\uC774\uBA74 \uC544\uB9C8 \uAC00\uCC9C\uAD00\uC5D0\uC11C
+        \uC9C4\uD589\uC911\uC77C\uAC70\uC57C. \uACE7 \uB05D\uB098\uAC08\uAC70 \uAC19\uC740\uB370
+        \uC870\uAE08 \uC11C\uB458\uB7EC\uC57C\uACA0\uB294\uAC78?"
       objectReference: {fileID: 0}
     - target: {fileID: 4702149471145411966, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
       propertyPath: m_LocalPosition.y
