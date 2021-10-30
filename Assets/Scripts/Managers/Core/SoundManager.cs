@@ -24,8 +24,6 @@ public class SoundManager
         Book_clip = Resources.Load("Sounds/SFX/Book") as AudioClip;
 
         Object.DontDestroyOnLoad(GameObject.Find("@SoundManager"));
-        BGM.clip = BGM_clip;
-        BGM.Play();
     }
 
     public void Play(Define.Sounds soundName)
