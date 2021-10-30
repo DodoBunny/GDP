@@ -558,6 +558,8 @@ MonoBehaviour:
   mainGroup: {fileID: 0}
   optionGroup: {fileID: 0}
   text: {fileID: 0}
+  BGM: {fileID: 0}
+  Item: {fileID: 0}
 --- !u!1 &492244176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1557,8 @@ MonoBehaviour:
   mainGroup: {fileID: 1928313144}
   optionGroup: {fileID: 1875204062}
   text: {fileID: 0}
+  BGM: {fileID: 0}
+  Item: {fileID: 0}
 --- !u!114 &1233300293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1847,6 +1851,8 @@ MonoBehaviour:
   mainGroup: {fileID: 0}
   optionGroup: {fileID: 0}
   text: {fileID: 1957806600}
+  BGM: {fileID: 0}
+  Item: {fileID: 0}
 --- !u!114 &1653712403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,6 +2302,8 @@ MonoBehaviour:
   mainGroup: {fileID: 0}
   optionGroup: {fileID: 0}
   text: {fileID: 0}
+  BGM: {fileID: 0}
+  Item: {fileID: 0}
 --- !u!1 &1780281062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,6 +2454,8 @@ MonoBehaviour:
   mainGroup: {fileID: 0}
   optionGroup: {fileID: 0}
   text: {fileID: 0}
+  BGM: {fileID: 0}
+  Item: {fileID: 0}
 --- !u!1 &1812291738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,3 +2881,5 @@ MonoBehaviour:
   mainGroup: {fileID: 1928313144}
   optionGroup: {fileID: 1875204062}
   text: {fileID: 0}
+  BGM: {fileID: 0}
+  Item: {fileID: 0}

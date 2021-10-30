@@ -28,6 +28,9 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public Text text;
 
 
+    public AudioSource BGM;
+    public AudioSource Item;
+
     private void Start()
     {
         defaultScale = buttonScale.localScale;
@@ -55,14 +58,16 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
                 break;
 
             case BTNTpye.Sound:
-                if(isSound)
+                if (isSound)
                 {
-                    Debug.Log("사운드 ON");
+                    Managers.Sound.BGM.volume = 0f;
+                    Managers.Sound.Item.volume = 0f;
                     text.text = "사운드 OFF";
                 }
                 else
                 {
-                    Debug.Log("사운드 OFF");
+                    Managers.Sound.BGM.volume = 0.3f;
+                    Managers.Sound.Item.volume = 0.2f;
                     text.text = "사운드 ON";
                 }
 

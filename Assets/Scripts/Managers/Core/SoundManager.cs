@@ -17,7 +17,7 @@ public class SoundManager
     {
         BGM = GameObject.Find("BGM").GetComponent<AudioSource>();
         Item = GameObject.Find("Item").GetComponent<AudioSource>();
-        
+
         BGM_clip = Resources.Load("Sounds/Music/BGM") as AudioClip;
         Food_clip = Resources.Load("Sounds/SFX/Food") as AudioClip;
         Drink_clip = Resources.Load("Sounds/SFX/Drink") as AudioClip;
@@ -27,7 +27,7 @@ public class SoundManager
         BGM.clip = BGM_clip;
         BGM.Play();
     }
-    
+
     public void Play(Define.Sounds soundName)
     {
         switch (soundName)
@@ -44,5 +44,5 @@ public class SoundManager
             default:
                 break;
         }
-    } 
+    }
 }
