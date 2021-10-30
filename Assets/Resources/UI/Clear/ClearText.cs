@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class ClearText : MonoBehaviour
 {
-    Text text;
+    public Text text;
+    
     // Start is called before the first frame update
     void Start()
     {
