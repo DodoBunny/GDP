@@ -9085,6 +9085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FollowerDialogPoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5893320392422530450, guid: ddd4cf18033581449b6c8319558459ac, type: 3}
+      propertyPath: text
+      value: "\uBC8C\uC368 \uC9D1\uC5D0 \uAC00\uB824\uACE0? \uC544\uC9C1 \uD559\uAD50
+        \uC18C\uAC1C \uB2E4 \uBABB \uB05D\uB0C8\uC5B4!"
+      objectReference: {fileID: 0}
     - target: {fileID: 5893320392422530451, guid: ddd4cf18033581449b6c8319558459ac, type: 3}
       propertyPath: m_Size.y
       value: 5
@@ -37248,7 +37253,7 @@ PrefabInstance:
       propertyPath: text
       value: "\uC548\uB155! \uC785\uC2DC\uB54C \uC81C\uC678\uD558\uACE4 \uD559\uAD50
         \uC628\uAC8C \uCC98\uC74C\uC774\uC9C0? \uB0B4\uAC00 \uD559\uAD50 \uAC74\uBB3C\uC774\uB791
-        \uC704\uCE58\uB4F1\uC744 \uC54C\uB824\uC904\uAC8C \uADF8\uB7FC \uB530\uB77C\uC640!"
+        \uC704\uCE58\uB4F1\uC744 \uC54C\uB824\uC904\uAC8C, \uADF8\uB7FC \uB530\uB77C\uC640!"
       objectReference: {fileID: 0}
     - target: {fileID: 5893320392422530450, guid: ddd4cf18033581449b6c8319558459ac, type: 3}
       propertyPath: autoDialog
@@ -38250,7 +38255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoDialog: 1
   text: "\uC800\uAE30 \uBCF4\uC774\uB294 \uAC00\uCC9C\uAD00\uC73C\uB85C \uAC00\uBA74
-    \uB3FC"
+    \uB3FC! \uBA40\uC5B4\uBCF4\uC774\uC9C0\uB9CC \uAE08\uBC29 \uAC08 \uC218 \uC788\uC5B4!"
   NPC: {fileID: 3335399848108704631, guid: b08ca7e91e5b9f740a4db4478a8d9009, type: 3}
   isDestroy: 0
   canMove: 0
@@ -47388,7 +47393,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.12
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -83509,6 +83514,10 @@ PrefabInstance:
     - target: {fileID: 5893320392422530157, guid: ddd4cf18033581449b6c8319558459ac, type: 3}
       propertyPath: m_Name
       value: FollowerDialogPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893320392422530450, guid: ddd4cf18033581449b6c8319558459ac, type: 3}
+      propertyPath: text
+      value: "\uADF8 \uCABD\uC774 \uC544\uB2C8\uC57C!"
       objectReference: {fileID: 0}
     - target: {fileID: 5893320392422530451, guid: ddd4cf18033581449b6c8319558459ac, type: 3}
       propertyPath: m_Size.y

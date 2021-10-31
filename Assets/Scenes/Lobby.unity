@@ -715,6 +715,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 164075033}
   text: {fileID: 0}
   sText: {fileID: 104043174}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!1 &492244176
@@ -1376,7 +1377,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.12
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1791,6 +1792,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 164075033}
   text: {fileID: 0}
   sText: {fileID: 104043174}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!114 &1040285946
@@ -2074,6 +2076,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 0}
   text: {fileID: 0}
   sText: {fileID: 0}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!114 &1233300293
@@ -2370,6 +2373,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 0}
   text: {fileID: 1957806600}
   sText: {fileID: 0}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!114 &1653712403
@@ -2823,6 +2827,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 0}
   text: {fileID: 0}
   sText: {fileID: 0}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!1 &1780281062
@@ -2977,6 +2982,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 0}
   text: {fileID: 0}
   sText: {fileID: 0}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!1 &1812291738
@@ -3406,6 +3412,7 @@ MonoBehaviour:
   scoreGroup: {fileID: 0}
   text: {fileID: 0}
   sText: {fileID: 0}
+  cleartext: {fileID: 0}
   BGM: {fileID: 0}
   Item: {fileID: 0}
 --- !u!1 &2073255648
