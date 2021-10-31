@@ -52,7 +52,14 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
             case BTNTpye.Score:
                 Debug.Log("점수");
                 //scoreBox.SetActive(true);
-                sText.text = Managers.Game.score.ToString();
+                if (PlayerPrefs.HasKey("Score"))
+                {
+                    sText.text = "High Score : " + PlayerPrefs.GetInt("Score").ToString();
+                }
+                else
+                {
+                    sText.text = "기록이 없습니다";
+                }
                 OnCanvasGroupChanged(scoreGroup);
                 OffCanvasGroupChanged(mainGroup);
 
@@ -67,12 +74,14 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
             case BTNTpye.Sound:
                 if (isSound)
                 {
+                    GameObject.Find("BGM").GetComponent<AudioSource>().volume = 0f;
                     Managers.Sound.BGM.volume = 0f;
                     Managers.Sound.Item.volume = 0f;
                     text.text = "사운드 OFF";
                 }
                 else
                 {
+                    GameObject.Find("BGM").GetComponent<AudioSource>().volume = 1.2f;
                     Managers.Sound.BGM.volume = 0.2f;
                     Managers.Sound.Item.volume = 0.2f;
                     text.text = "사운드 ON";

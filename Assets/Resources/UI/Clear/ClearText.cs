@@ -5,18 +5,19 @@ using UnityEngine.UI;
 
 public class ClearText : MonoBehaviour
 {
-    public Text text;
+    Text text;
     
     // Start is called before the first frame update
     void Start()
     {
         text = GetComponent<Text>();
-        text.text = "Total Score : " + Managers.Game.score.ToString();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (PlayerPrefs.HasKey("Score"))
+        {
+            text.text = "High Score : " + PlayerPrefs.GetInt("Score").ToString();
+        }
+        else
+        {
+            text.text = "기록이 없습니다";
+        }
     }
 }

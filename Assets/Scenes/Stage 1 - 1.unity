@@ -47387,6 +47387,10 @@ PrefabInstance:
       propertyPath: text
       value: "\uD559\uC0DD\uC99D \uBC1C\uAE09 \uBC1B\uC544\uAC00\uC138\uC694!"
       objectReference: {fileID: 0}
+    - target: {fileID: 4702149470208631471, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
+      propertyPath: autoDialog
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a93a56363cb5b740b88a78a1b555720, type: 3}
 --- !u!4 &1641062563 stripped
@@ -82988,6 +82992,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6437654033595287543, guid: 182d4849ae3157a4db1f3111f9b78acc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6485818900200666946, guid: 182d4849ae3157a4db1f3111f9b78acc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

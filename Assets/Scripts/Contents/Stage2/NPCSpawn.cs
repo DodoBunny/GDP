@@ -29,7 +29,7 @@ public class NPCSpawn : MonoBehaviour
         if (Managers.Game.NPCs >= 20)
             return;
 
-        int rand = Random.Range(1, 5);
+        int rand = Random.Range(1, 6);
 
         switch (rand)
         {
