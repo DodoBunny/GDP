@@ -13,6 +13,7 @@ public enum BTNTpye // 열거형
     Option,
     Sound,
     Back,
+    Back2,
     Exit
 }
 
@@ -24,10 +25,11 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     Vector3 defaultScale;
     public CanvasGroup mainGroup;
     public CanvasGroup optionGroup;
+    public CanvasGroup scoreGroup;
     bool isSound;
     public Text text;
-
-
+    public Text sText;
+    public ClearText cleartext;
     public AudioSource BGM;
     public AudioSource Item;
 
@@ -49,6 +51,11 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
             case BTNTpye.Score:
                 Debug.Log("점수");
+                //scoreBox.SetActive(true);
+                sText.text = Managers.Game.score.ToString();
+                OnCanvasGroupChanged(scoreGroup);
+                OffCanvasGroupChanged(mainGroup);
+
                 break;
 
             case BTNTpye.Option:
@@ -66,19 +73,24 @@ public class LobbyScene : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
                 }
                 else
                 {
-                    Managers.Sound.BGM.volume = 0.3f;
+                    Managers.Sound.BGM.volume = 0.2f;
                     Managers.Sound.Item.volume = 0.2f;
                     text.text = "사운드 ON";
                 }
 
                 isSound = !isSound;
-                //Managers.Sound.BGM_clip
                 break;
 
             case BTNTpye.Back:
                 Debug.Log("뒤로");
                 OnCanvasGroupChanged(mainGroup);
                 OffCanvasGroupChanged(optionGroup);
+                break;
+
+            case BTNTpye.Back2:
+                Debug.Log("뒤로2");
+                OnCanvasGroupChanged(mainGroup);
+                OffCanvasGroupChanged(scoreGroup);
                 break;
 
             case BTNTpye.Exit:
